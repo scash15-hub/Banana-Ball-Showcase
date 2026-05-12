@@ -1,0 +1,148 @@
+/* Whole Page */
+body {
+  background-color: #fff8cc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.banana-navbar {
+  background-color: #f4c400;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Logo image itself */
+img.navbar-brand {
+  height: 85px;
+  width: auto;
+  display: block;
+}
+
+/* Keep navbar tight and left-aligned */
+.banana-navbar .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Main Page Title */
+.page-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f4c400;
+  text-shadow: 2px 2px black;
+}
+
+.player-card {
+  height: 220px;
+  background-color: white;
+  border: 5px solid #f4c400;
+  border-radius: 20px;
+
+  /* NEW (background image support) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
+
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.player-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark overlay for readability */
+.player-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* =========================
+   TEXT POSITIONING (NEW)
+========================= */
+.card-body {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  height: 100%;
+  text-align: right;
+  color: white;
+}
+
+/* Card Text (# number) */
+.card-text {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* Card Title (name) */
+.card-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.team-icon {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+}
+
+/*player-bg imgs*/
+.LeRoy { background-image: url("LeRoy.jpeg"); }
+.Alexiades { background-image: url("Alexiades.jpeg"); }
+.Grizzaffi { background-image: url("Grizzaffi.jpeg"); }
+.KJ { background-image: url("KJ.jpeg"); }
+.Meadows { background-image: url("Meadows.jpeg"); }
+.Cox { background-image: url("Cox.jpeg"); }
+.Ty { background-image: url("Ty.jpeg"); }
+.Olson { background-image: url("Olson.jpeg"); }
+.Jung-Goldberg { background-image: url("Jung-Goldberg.jpeg"); }
+.Ziegler { background-image: url("Ziegler.jpeg"); }
+.Drury { background-image: url("Drury.jpeg"); }
+.Luigs { background-image: url("Luigs.jpeg"); }
+.Stober { background-image: url("Stober.jpeg"); }
+.Albritton { background-image: url("Albritton.jpeg"); }
+.Cruz { background-image: url("Cruz.jpeg"); }
+.Virant { background-image: url("Virant.jpeg"); }
+.Parrish { background-image: url("Parrish.jpeg"); }
+.Hosley { background-image: url("Hosley.jpeg"); }
+.Oberst { background-image: url("Oberst.jpeg"); }
+.Besser { background-image: url("Besser.jpeg"); }
+.Bazala { background-image: url("Bazala.jpeg"); }
+.Sokolove { background-image: url("Sokolove.jpeg"); }
+.Horton { background-image: url("Horton.jpeg"); }
+.Klena { background-image: url("Klena.jpeg"); }
+.Harris { background-image: url("Harris.jpeg"); }
+.Levesque { background-image: url("Levesque.jpeg"); }
+.Whitmore { background-image: url("Whitmore.jpeg"); }
+.Saathoff { background-image: url("Saathoff.jpeg"); }
+.Kellogg { background-image: url("Kellogg.jpeg"); }
+.Gillum { background-image: url("Gillum.jpeg"); }
+.Niznik { background-image: url("Niznik.jpeg"); }
+.Moscatiello { background-image: url("Moscatiello.jpeg");}
+
+/*Sizing for img*/
+.LeRoy,.Alexiades,.Grizzaffi,.KJ,.Meadows,.Cox,.Ty,.Olson,.Jung-Goldberg,.Ziegler,.Drury,.Luigs,.Stober,.Albritton,.Cruz,.Virant,.Parrish,.Hosley,.Oberst,.Besser,.Bazala,.Sokolove,.Horton,.Klena,.Harris,.Levesque,.Whitmore,.Saathoff,.Kellogg,.Gillum,.Niznik,.Moscatiello {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
