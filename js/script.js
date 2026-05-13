@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       col.innerHTML = `
             <div class="card player-card ${p.lastName}">
                 <div class="card-body">
-                    <img src="${p.photo}" class="team-icon" />
+                    <img src="${photo}" class="team-icon" />    //???????
                          <p class="card-text">${p.number}</p>
                             <h5 class="card-title">${p.firstName} ${p.lastName}</h5>
                 </div>
