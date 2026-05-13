@@ -6,8 +6,7 @@ const savannah = [
         lastName: "LeRoy",
         position: "C",
         photo: "savannah/LeRoy.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Self-Introducer",
     },
     {
         number: "2",
@@ -15,8 +14,7 @@ const savannah = [
         lastName: "Alexiades",
         position: "OF",
         photo: "savannah/Alexiades.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Caped Crusader",
     },
     {
         number: "3",
@@ -24,8 +22,7 @@ const savannah = [
         lastName: "Grizzaffi",
         position: "C",
         photo: "savannah/Grizzaffi.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Louisiana Drip ",
     },
     {
         number: "4",
@@ -33,8 +30,7 @@ const savannah = [
         lastName: "Jackson",
         position: "UTL",
         photo: "savannah/KJ.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The 5-Position Dancer",
     },
     {
         number: "5",
@@ -42,8 +38,7 @@ const savannah = [
         lastName: "Meadows",
         position: "OF",
         photo: "savannah/Meadows.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Outfield Flipper",
     },
     {
         number: "6",
@@ -51,8 +46,7 @@ const savannah = [
         lastName: "Cox",
         position: "SS",
         photo: "savannah/Cox.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Glove Machine",
     },
     {
         number: "7",
@@ -60,8 +54,7 @@ const savannah = [
         lastName: "Jackson",
         position: "OF",
         photo: "savannah/Ty.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Hype Machine",
     },
     {
         number: "8",
@@ -69,8 +62,7 @@ const savannah = [
         lastName: "Olson",
         position: "INF",
         photo: "savannah/Olson.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Content King",
     },
     {
         number: "9",
@@ -78,8 +70,7 @@ const savannah = [
         lastName: "Jung-Goldberg",
         position: "UTL",
         photo: "savannah/Jung-Goldberg.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Bougie Bomber",
     },
     {
         number: "10",
@@ -87,8 +78,7 @@ const savannah = [
         lastName: "Ziegler",
         position: "1B",
         photo: "savannah/Ziegler.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Bat Spinner",
     },
     {
         number: "11",
@@ -96,8 +86,7 @@ const savannah = [
         lastName: "Drury",
         position: "P",
         photo: "savannah/Drury.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Tumbling Handoff",
     },
     {
         number: "12",
@@ -105,17 +94,15 @@ const savannah = [
         lastName: "Luigs",
         position: "P",
         photo: "savannah/Luigs.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Fireballer",
     },
     {
         number: "13",
         firstName: "Bryce",
         lastName: "Stober",
-        position: "Coach",
+        position: "Assistant Coach",
         photo: "savannah/Stober.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Tactical Mastermind",
     },
     {
         number: "14",
@@ -123,8 +110,7 @@ const savannah = [
         lastName: "Albritton",
         position: "UTL",
         photo: "savannah/Albritton.jpeg",
-        funFact: "Enjoys spaghetti with ranch",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The 10-Foot Giant",
     },
     {
         number: "15",
@@ -132,8 +118,7 @@ const savannah = [
         lastName: "Cruz",
         position: "OF",
         photo: "savannah/Cruz.jpeg",
-        funFact: "Was homeschooled most of his life.",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "Coach RAC",
     },
     {
         number: "16",
@@ -141,8 +126,7 @@ const savannah = [
         lastName: "Virant",
         position: "Coach",
         photo: "savannah/Virant.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Logistics General",
     },
     {
         number: "17",
@@ -150,103 +134,90 @@ const savannah = [
         lastName: "Parrish",
         position: "C",
         photo: "savannah/Parrish.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Trick Handoff",
     }, {
         number: "18",
         firstName: "Danny",
         lastName: "Hosley",
         position: "UTL",
         photo: "savannah/Hosley.jpeg",
-        funFact: "Certified EMT",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Ironman",
     }, {
         number: "19",
         firstName: "Dan",
         lastName: "Oberst",
         position: "DH",
         photo: "savannah/Oberst.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Mirror Talker",
     }, {
         number: "20",
         firstName: "Grant",
         lastName: "Besser",
         position: "P",
         photo: "savannah/Besser.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Choreographed Twins",
     }, {
         number: "21",
         firstName: "Jacob",
         lastName: "Bazala",
         position: "P",
         photo: "savannah/Bazala.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Choreographed Twins",
     }, {
         number: "22",
         name: "JT Sokolove",
         position: "DR",
         photo: "savannah/Sokolove.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Base Bandit",
     }, {
         number: "23",
         firstName: "Reginald",
         lastName: "Horton",
         position: "Inspiration Coach",
         photo: "savannah/Horton.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Soul Coach",
     }, {
         number: "24",
         firstName: "Derek",
         lastName: "Klena",
         position: "RHP",
         photo: "savannah/Klena.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Broadway Belter",
     }, {
         number: "30",
         firstName: "Connor",
         lastName: "Harris",
         position: "P",
         photo: "savannah/Harris.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Skit Pitchers",
     }, {
         number: "31",
         firstName: "Trystan",
         lastName: "Levesque",
         position: "P",
         photo: "savannah/Levesque.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Skit Pitchers",
     }, {
         number: "33",
         firstName: "Kelsie",
         lastName: "Whitmore",
         position: "P",
         photo: "savannah/Whitmore.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Trailblazer",
     }, {
         number: "44",
         firstName: "Allan",
         lastName: "Saathoff",
         position: "P",
         photo: "savannah/Saathoff.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Fireman",
     }, {
         number: "49",
         firstName: "Ryan",
         lastName: "Kellogg",
         position: "P Coach",
         photo: "savannah/Kellogg.jpeg",
-        funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "Big Maple",
     }, {
         number: "66",
         firstName: "Tyler",
@@ -254,7 +225,7 @@ const savannah = [
         position: "Head Coach",
         photo: "savannah/Gillum.jpeg",
         funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Mastermind",
     }, {
         number: "88",
         firstName: "Noah",
@@ -262,7 +233,7 @@ const savannah = [
         position: "P",
         photo: "savannah/Niznik.jpeg",
         funFact: "Loves Mariah Carey",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Mariah Carey Fan",
     }, {
         number: "99",
         firstName: "Frankie",
@@ -270,7 +241,7 @@ const savannah = [
         position: "P",
         photo: "savannah/Moscatiello.jpeg",
         funFact: "Excellent Breakfast Chef",
-        talent: "Trick throw-downs from the catcher position",
+        talentName: "The Lock-Down Closer",
     },
 ];
 
@@ -283,8 +254,7 @@ const party = [
         lastName: "Simoneaux",
         position: "Coach",
         photo: "party/Simoneaux.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Routine Coordinator",
     },
     {
         number: "1",
@@ -292,8 +262,7 @@ const party = [
         lastName: "Lansdell",
         position: "2B",
         photo: "party/Lansdell.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "THe Groundbreaker",
     },
     {
         number: "2",
@@ -301,8 +270,7 @@ const party = [
         lastName: "Swan",
         position: "1B",
         photo: "party/Swan.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Dance Machine Firstman",
     },
     {
         number: "3",
@@ -310,8 +278,7 @@ const party = [
         lastName: "Reeves",
         position: "OF",
         photo: "party/Reeves.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Long-Ball Lunatic",
     },
     {
         number: "4",
@@ -319,8 +286,7 @@ const party = [
         lastName: "Thomas",
         position: "OF",
         photo: "party/Thomas.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Airtime Artist",
     },
     {
         number: "5",
@@ -328,8 +294,7 @@ const party = [
         lastName: "Cosgrove",
         position: "C",
         photo: "party/Cosgrove.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Choreograpgy Catcher",
     },
     {
         number: "6",
@@ -337,8 +302,7 @@ const party = [
         lastName: "Hampton",
         position: "OF",
         photo: "party/Hampton.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Jet-Fuel Sprinter",
     },
     {
         number: "7",
@@ -346,8 +310,7 @@ const party = [
         lastName: "Vavasis",
         position: "Head Coach",
         photo: "party/Vavasis.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Party Mastermind",
     },
     {
         number: "8",
@@ -355,8 +318,7 @@ const party = [
         lastName: "Bloomer",
         position: "3B",
         photo: "party/Bloomer.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The COrner Showman",
     },
     {
         number: "9",
@@ -364,8 +326,7 @@ const party = [
         lastName: "Baber",
         position: "2B",
         photo: "party/Baber.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Trick-Flip Infielder",
     },
     {
         number: "10",
@@ -373,8 +334,7 @@ const party = [
         lastName: "Helton",
         position: "RHP",
         photo: "party/Helton.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Heavy-Heater Righty",
     },
     {
         number: "11",
@@ -382,8 +342,7 @@ const party = [
         lastName: "Achuff",
         position: "SS",
         photo: "party/Achuff.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Glove Conductor",
     },
     {
         number: "12",
@@ -391,8 +350,7 @@ const party = [
         lastName: "Fisher",
         position: "UTL",
         photo: "party/Fisher.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Everywhere Utility",
     },
     {
         number: "13",
@@ -400,8 +358,7 @@ const party = [
         lastName: "Kais",
         position: "LHP",
         photo: "party/Kais.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Southpaw Striker",
     },
     {
         number: "15",
@@ -409,8 +366,7 @@ const party = [
         lastName: "Porter",
         position: "RHP",
         photo: "party/Porter.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Mind-Game Reliever",
     },
     {
         number: "17",
@@ -418,8 +374,7 @@ const party = [
         lastName: "Ponce",
         position: "RHP",
         photo: "party/Ponce.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The High-Stakes Closer",
     },
     {
         number: "21",
@@ -427,8 +382,7 @@ const party = [
         lastName: "Rodriguez",
         position: "RHP",
         photo: "party/Rodriguez.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "THe Chopped-Hair Fireballer",
     },
     {
         number: "22",
@@ -436,8 +390,7 @@ const party = [
         lastName: "Holden",
         position: "LHP",
         photo: "party/Holden.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Breaking-Ball Technician",
     },
     {
         number: "25",
@@ -445,8 +398,7 @@ const party = [
         lastName: "Fluke",
         position: "RHP",
         photo: "party/Fluke.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Mound Jester",
     },
     {
         number: "26",
@@ -454,8 +406,7 @@ const party = [
         lastName: "Tellier",
         position: "RHP",
         photo: "party/Tellier.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Velocity Thriller",
     },
     {
         number: "27",
@@ -463,8 +414,7 @@ const party = [
         lastName: "Lialios",
         position: "RHP",
         photo: "party/Lialios.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Delivery Chameleon",
     },
     {
         number: "28",
@@ -472,8 +422,7 @@ const party = [
         lastName: "Gillespie",
         position: "RHP",
         photo: "party/Gillespie.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The CLean-Inning King",
     },
     {
         number: "40",
@@ -481,8 +430,7 @@ const party = [
         lastName: "Smith",
         position: "DR",
         photo: "party/Smith.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Pink Base Bandit",
     },
     {
         number: "41",
@@ -490,8 +438,7 @@ const party = [
         lastName: "Balholm",
         position: "C",
         photo: "party/Balholm.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Plate Magician",
     },
     {
         number: "57",
@@ -499,8 +446,7 @@ const party = [
         lastName: "Coromato",
         position: "Coach",
         photo: "party/Coromato.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Hype Architect",
     },
     {
         number: "407",
@@ -508,8 +454,7 @@ const party = [
         lastName: "Ballard",
         position: "IF",
         photo: "party/Ballard.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "THe Infield Anchor",
     },
     {
         number: "777",
@@ -517,8 +462,7 @@ const party = [
         lastName: "Delano",
         position: "RHP",
         photo: "party/Delano.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The 64-Second Sub",
     },
     {
         number: "999",
@@ -526,8 +470,7 @@ const party = [
         lastName: "Bobo",
         position: "UTL",
         photo: "party/Bobo.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Banana Rapper",
     },
     {
         number: "X",
@@ -535,8 +478,7 @@ const party = [
         lastName: "Skole",
         position: "OF",
         photo: "party/Skole.jpeg",
-        funFact: "",
-        talent: "",
+        talentName: "The Wildcard Outfielder",
     },
 ];
 
@@ -548,8 +490,8 @@ const fire = [
         lastName: "Shill",
         position: "RHP",
         photo: "fire/Shill.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "0",
@@ -557,8 +499,8 @@ const fire = [
         lastName: "Sparks",
         position: "OF",
         photo: "fire/Sparks.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "1",
@@ -566,8 +508,8 @@ const fire = [
         lastName: "Dearman",
         position: "RHP",
         photo: "fire/Dearman.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "2",
@@ -575,8 +517,8 @@ const fire = [
         lastName: "Green",
         position: "SS",
         photo: "fire/Green.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "3",
@@ -584,8 +526,8 @@ const fire = [
         lastName: "Cornett",
         position: "C",
         photo: "fire/Cornett.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "3.14",
@@ -593,8 +535,8 @@ const fire = [
         lastName: "Pye",
         position: "Pitching Coach",
         photo: "fire/Pye.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "4",
@@ -602,8 +544,8 @@ const fire = [
         lastName: "Jones Jr.",
         position: "C/1B",
         photo: "fire/Jones Jr..jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "6",
@@ -611,8 +553,8 @@ const fire = [
         lastName: "Temple",
         position: "RHP",
         photo: "fire/Temple.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "7",
@@ -620,8 +562,8 @@ const fire = [
         lastName: "Maxwell",
         position: "OF",
         photo: "fire/Maxwell.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "8",
@@ -629,8 +571,8 @@ const fire = [
         lastName: "Trimble",
         position: "DR",
         photo: "fire/Trimble.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "9",
@@ -638,8 +580,8 @@ const fire = [
         lastName: "Bridges",
         position: "OF",
         photo: "fire/Bridges.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "10",
@@ -647,8 +589,8 @@ const fire = [
         lastName: "",
         position: "1B/OF",
         photo: "fire/Darrien.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "11",
@@ -656,8 +598,8 @@ const fire = [
         lastName: "Lacey",
         position: "3B",
         photo: "fire/Lacey.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "12",
@@ -665,8 +607,8 @@ const fire = [
         lastName: "Bridges",
         position: "C",
         photo: "fire/Bridges.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "15",
@@ -674,8 +616,8 @@ const fire = [
         lastName: "Spence",
         position: "INF",
         photo: "fire/Spence.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "16",
@@ -683,8 +625,8 @@ const fire = [
         lastName: "Yniesta",
         position: "Assistant Coach",
         photo: "fire/Yniesta.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "18",
@@ -692,8 +634,8 @@ const fire = [
         lastName: "Dum III",
         position: "RHP",
         photo: "fire/Dum III.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "21",
@@ -701,8 +643,8 @@ const fire = [
         lastName: "Donalson",
         position: "RHP",
         photo: "fire/Donalson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "22",
@@ -710,8 +652,8 @@ const fire = [
         lastName: "Phillips",
         position: "LHP",
         photo: "fire/Phillips.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "23",
@@ -719,8 +661,8 @@ const fire = [
         lastName: "Franklin Jr.",
         position: "OF",
         photo: "fire/Franklin Jr..jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "24",
@@ -728,8 +670,8 @@ const fire = [
         lastName: "McFadden",
         position: "UTL",
         photo: "fire/McFadden.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "25",
@@ -737,8 +679,8 @@ const fire = [
         lastName: "Wray",
         position: "RHP",
         photo: "fire/Wray.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "27",
@@ -746,8 +688,8 @@ const fire = [
         lastName: "Perez",
         position: "Head Coach",
         photo: "fire/Perez.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "29",
@@ -755,8 +697,8 @@ const fire = [
         lastName: "Trepanier",
         position: "P",
         photo: "fire/Trepanier.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "30",
@@ -764,8 +706,8 @@ const fire = [
         lastName: "Becerra",
         position: "OF",
         photo: "fire/Becerra.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "37",
@@ -773,8 +715,8 @@ const fire = [
         lastName: "Morgan",
         position: "LHP",
         photo: "fire/Morgan.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "42",
@@ -782,8 +724,8 @@ const fire = [
         lastName: "Webb",
         position: "RHP",
         photo: "fire/Webb.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "55",
@@ -791,8 +733,8 @@ const fire = [
         lastName: "Hughes",
         position: "UTL",
         photo: "fire/Hughes.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "95",
@@ -800,8 +742,8 @@ const fire = [
         lastName: "Hummel",
         position: "RHP",
         photo: "fire/Hummel.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
 ];
 
@@ -813,8 +755,8 @@ const texas = [
         lastName: "Mikulik",
         position: "Coach",
         photo: "texas/Mikulik.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -822,8 +764,8 @@ const texas = [
         lastName: "Pennington",
         position: "Assistant Coach",
         photo: "texas/Pennington.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -831,8 +773,8 @@ const texas = [
         lastName: "Bartman",
         position: "Assistant Coach",
         photo: "texas/Bartman.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "1",
@@ -840,8 +782,8 @@ const texas = [
         lastName: "Luders",
         position: "2B",
         photo: "texas/Luders.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "2",
@@ -849,8 +791,8 @@ const texas = [
         lastName: "Watson",
         position: "UTL",
         photo: "texas/Watson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "3",
@@ -858,8 +800,8 @@ const texas = [
         lastName: "Arendt",
         position: "OF/ENT",
         photo: "texas/Arendt.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "5",
@@ -867,8 +809,8 @@ const texas = [
         lastName: "Hussein",
         position: "SS",
         photo: "texas/Hussein.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "6",
@@ -876,8 +818,8 @@ const texas = [
         lastName: "Barth",
         position: "INF",
         photo: "texas/Barth.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "7",
@@ -885,8 +827,8 @@ const texas = [
         lastName: "Stanley",
         position: "UTL",
         photo: "texas/Stanley.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "8",
@@ -894,8 +836,8 @@ const texas = [
         lastName: "Hughes",
         position: "RHP",
         photo: "texas/Hughes.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "9",
@@ -903,8 +845,8 @@ const texas = [
         lastName: "Lopez",
         position: "UTL",
         photo: "texas/Lopez.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "11",
@@ -912,8 +854,8 @@ const texas = [
         lastName: "Danford",
         position: "1B",
         photo: "texas/Danford.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "12",
@@ -921,8 +863,8 @@ const texas = [
         lastName: "Davis",
         position: "LHP",
         photo: "texas/Davis.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "16",
@@ -930,8 +872,8 @@ const texas = [
         lastName: "Moniot",
         position: "3B",
         photo: "texas/Moniot.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "17",
@@ -939,8 +881,8 @@ const texas = [
         lastName: "Sanchez",
         position: "RHP",
         photo: "texas/Sanchez.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "22",
@@ -948,8 +890,8 @@ const texas = [
         lastName: "Miller",
         position: "RHP",
         photo: "texas/Miller.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "23",
@@ -957,8 +899,8 @@ const texas = [
         lastName: "Sperone",
         position: "RHP",
         photo: "texas/Sperone.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "24",
@@ -966,8 +908,8 @@ const texas = [
         lastName: "Reid",
         position: "LHP",
         photo: "texas/Reid.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "26",
@@ -975,8 +917,8 @@ const texas = [
         lastName: "Porter",
         position: "C",
         photo: "texas/Porter.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "27",
@@ -984,8 +926,8 @@ const texas = [
         lastName: "Martin",
         position: "OF/1B",
         photo: "texas/Martin.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "28",
@@ -993,8 +935,8 @@ const texas = [
         lastName: "Gonzalez",
         position: "OF/1B",
         photo: "texas/Gonzalez.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "29",
@@ -1002,8 +944,8 @@ const texas = [
         lastName: "Rigot",
         position: "LHP",
         photo: "texas/Rigot.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "33",
@@ -1011,8 +953,8 @@ const texas = [
         lastName: "Jones",
         position: "DR/ENT",
         photo: "texas/Jones.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "34",
@@ -1020,8 +962,8 @@ const texas = [
         lastName: "Wiggins",
         position: "OF",
         photo: "texas/Wiggins.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "36",
@@ -1029,8 +971,8 @@ const texas = [
         lastName: "Allen",
         position: "RHP",
         photo: "texas/Allen.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "37",
@@ -1038,8 +980,8 @@ const texas = [
         lastName: "Blankenship",
         position: "LHP",
         photo: "texas/Blankenship.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "44",
@@ -1047,8 +989,8 @@ const texas = [
         lastName: "Clarke",
         position: "RHP",
         photo: "texas/Clarke.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "85",
@@ -1056,8 +998,8 @@ const texas = [
         lastName: "Justus",
         position: "C",
         photo: "texas/Justus.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "99",
@@ -1065,8 +1007,8 @@ const texas = [
         lastName: "Lewis",
         position: "RHP",
         photo: "texas/Lewis.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
 ];
 
@@ -1078,8 +1020,8 @@ const coco = [
         lastName: "Crocco",
         position: "Coach",
         photo: "coco/Crocco.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1087,8 +1029,8 @@ const coco = [
         lastName: "Victorino",
         position: "Primetime Coach",
         photo: "coco/Victorino.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1096,8 +1038,8 @@ const coco = [
         lastName: "Marks",
         position: "Assistant Coach",
         photo: "coco/Marks.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1105,8 +1047,8 @@ const coco = [
         lastName: "Morales",
         position: "Assistant Coach",
         photo: "coco/Morales.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "0",
@@ -1114,8 +1056,8 @@ const coco = [
         lastName: "Williams",
         position: "RHP",
         photo: "coco/Williams.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "1",
@@ -1123,8 +1065,8 @@ const coco = [
         lastName: "Chatagnier",
         position: "INF",
         photo: "coco/Chatagnier.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "2",
@@ -1132,8 +1074,8 @@ const coco = [
         lastName: "Jacobo",
         position: "INF",
         photo: "coco/Jacobo.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "3",
@@ -1141,8 +1083,8 @@ const coco = [
         lastName: "Henderson",
         position: "DR/ENT",
         photo: "coco/Henderson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "4",
@@ -1150,8 +1092,8 @@ const coco = [
         lastName: "Carson",
         position: "LHP/OF/1B",
         photo: "coco/Carson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "6",
@@ -1159,8 +1101,8 @@ const coco = [
         lastName: "Fontenot",
         position: "RHP",
         photo: "coco/Fontenot.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "7",
@@ -1168,8 +1110,8 @@ const coco = [
         lastName: "Urso",
         position: "UTL",
         photo: "coco/Urso.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "8",
@@ -1177,8 +1119,8 @@ const coco = [
         lastName: "Bowler",
         position: "OF/ENT",
         photo: "coco/Bowler.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "9",
@@ -1186,8 +1128,8 @@ const coco = [
         lastName: "Parker",
         position: "OF",
         photo: "coco/Parker.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "10",
@@ -1195,8 +1137,8 @@ const coco = [
         lastName: "Allen",
         position: "OF",
         photo: "coco/Allen.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "11",
@@ -1204,8 +1146,8 @@ const coco = [
         lastName: "Vining",
         position: "C",
         photo: "coco/Vining.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "12",
@@ -1213,8 +1155,8 @@ const coco = [
         lastName: "James",
         position: "RHP",
         photo: "coco/James.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "13",
@@ -1222,8 +1164,8 @@ const coco = [
         lastName: "Mauldin",
         position: "UTL",
         photo: "coco/Mauldin.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "15",
@@ -1231,8 +1173,8 @@ const coco = [
         lastName: "Brewer",
         position: "1B/OF",
         photo: "coco/Brewer.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "17",
@@ -1240,8 +1182,8 @@ const coco = [
         lastName: "Benson",
         position: "LHP/ENT",
         photo: "coco/Benson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "18",
@@ -1249,8 +1191,8 @@ const coco = [
         lastName: "Antle",
         position: "OF",
         photo: "coco/Antle.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "19",
@@ -1258,8 +1200,8 @@ const coco = [
         lastName: "Smith",
         position: "RHP",
         photo: "coco/Smith.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "20",
@@ -1267,8 +1209,8 @@ const coco = [
         lastName: "Ethridge",
         position: "RHP",
         photo: "coco/Ethridge.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "21",
@@ -1276,8 +1218,8 @@ const coco = [
         lastName: "Ostberg",
         position: "C",
         photo: "coco/Ostberg.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "22",
@@ -1285,8 +1227,8 @@ const coco = [
         lastName: "Krzeminski",
         position: "RHP",
         photo: "coco/Krzeminski.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "23",
@@ -1294,8 +1236,8 @@ const coco = [
         lastName: "Tofteland",
         position: "3B/1B",
         photo: "coco/Tofteland.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "24",
@@ -1303,8 +1245,8 @@ const coco = [
         lastName: "Archer",
         position: "RHP",
         photo: "coco/Archer.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "30",
@@ -1312,8 +1254,8 @@ const coco = [
         lastName: "Filomeno",
         position: "LHP",
         photo: "coco/Filomeno.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "31",
@@ -1321,8 +1263,8 @@ const coco = [
         lastName: "Morgan",
         position: "OF",
         photo: "coco/Morgan.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "1 of 1",
@@ -1330,8 +1272,8 @@ const coco = [
         lastName: "Perry",
         position: "LHP",
         photo: "coco/Perry.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "222",
@@ -1339,8 +1281,8 @@ const coco = [
         lastName: "Benites",
         position: "C",
         photo: "coco/Benites.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
 ];
 
@@ -1352,8 +1294,8 @@ const clowns = [
         lastName: "Fox",
         position: "Head Coach",
         photo: "clowns/Fox.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1361,8 +1303,8 @@ const clowns = [
         lastName: "Howard",
         position: "Primetime Coach",
         photo: "clowns/Howard.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1370,8 +1312,8 @@ const clowns = [
         lastName: "Carter",
         position: "Assistant Coach",
         photo: "clowns/Carter.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "",
@@ -1379,8 +1321,8 @@ const clowns = [
         lastName: "Voiro",
         position: "Assistant Coach",
         photo: "clowns/Voiro.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "1",
@@ -1388,8 +1330,8 @@ const clowns = [
         lastName: "Banks",
         position: "UTL",
         photo: "clowns/Banks.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "2",
@@ -1397,8 +1339,8 @@ const clowns = [
         lastName: "Vosquez",
         position: "INF",
         photo: "clowns/Vosquez.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "3",
@@ -1406,8 +1348,8 @@ const clowns = [
         lastName: "Gray",
         position: "OF",
         photo: "clowns/Gray.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "4",
@@ -1415,8 +1357,8 @@ const clowns = [
         lastName: "Voorhees",
         position: "RHP",
         photo: "clowns/Voorhees.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "5",
@@ -1424,8 +1366,8 @@ const clowns = [
         lastName: "Dansereau",
         position: "OF",
         photo: "clowns/Dansereau.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "7",
@@ -1433,8 +1375,8 @@ const clowns = [
         lastName: "Lada",
         position: "INF",
         photo: "clowns/Lada.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "8",
@@ -1442,8 +1384,8 @@ const clowns = [
         lastName: "Maddock",
         position: "RHP",
         photo: "clowns/Maddock.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "9",
@@ -1451,8 +1393,8 @@ const clowns = [
         lastName: "Burgess",
         position: "C",
         photo: "clowns/Burgess.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "11",
@@ -1460,8 +1402,8 @@ const clowns = [
         lastName: "Prime",
         position: "RHP/INF",
         photo: "clowns/Prime.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "12",
@@ -1469,8 +1411,8 @@ const clowns = [
         lastName: "Hulsizer",
         position: "OF",
         photo: "clowns/Hulsizer.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "13",
@@ -1478,8 +1420,8 @@ const clowns = [
         lastName: "Gilmore",
         position: "RHP",
         photo: "clowns/Gilmore.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "15",
@@ -1487,8 +1429,8 @@ const clowns = [
         lastName: "Griffin",
         position: "RHP",
         photo: "clowns/Griffin.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "16",
@@ -1496,8 +1438,8 @@ const clowns = [
         lastName: "Paton",
         position: "INF",
         photo: "clowns/Paton.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "19",
@@ -1505,8 +1447,8 @@ const clowns = [
         lastName: "Bradley Jr.",
         position: "OF",
         photo: "clowns/Bradley Jr..jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "21",
@@ -1514,8 +1456,8 @@ const clowns = [
         lastName: "Santarseiro",
         position: "RHP",
         photo: "clowns/Santarseiro.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "22",
@@ -1523,8 +1465,8 @@ const clowns = [
         lastName: "Lytle",
         position: "C",
         photo: "clowns/Lytle.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "24",
@@ -1532,8 +1474,8 @@ const clowns = [
         lastName: "Robinson",
         position: "RHP",
         photo: "clowns/Robinson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "25",
@@ -1541,8 +1483,8 @@ const clowns = [
         lastName: "Reinoso",
         position: "RHP",
         photo: "clowns/Reinoso.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "33",
@@ -1550,8 +1492,8 @@ const clowns = [
         lastName: "Wilson",
         position: "RHP",
         photo: "clowns/Wilson.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "34",
@@ -1559,8 +1501,8 @@ const clowns = [
         lastName: "Foster",
         position: "LHP",
         photo: "clowns/Foster.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "44",
@@ -1568,8 +1510,8 @@ const clowns = [
         lastName: "Francis Jr.",
         position: "UTL",
         photo: "clowns/Francis Jr..jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "67",
@@ -1577,8 +1519,8 @@ const clowns = [
         lastName: "Irvine",
         position: "RHP",
         photo: "clowns/Irvine.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "!",
@@ -1586,8 +1528,8 @@ const clowns = [
         lastName: "Wolf",
         position: "RHP/2B/ENT",
         photo: "clowns/Wolf.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "∞",
@@ -1595,8 +1537,8 @@ const clowns = [
         lastName: "Polydoroff",
         position: "RHP/EH/ENT",
         photo: "clowns/Polydoroff.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
     {
         number: "🗲",
@@ -1604,8 +1546,8 @@ const clowns = [
         lastName: "Mitchell",
         position: "EH/DR",
         photo: "clowns/Mitchell.jpeg",
-        funFact: "",
-        talent: "",
+
+        talentName: "",
     },
 ];
 

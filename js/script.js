@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="card player-card ${p.lastName}">
                 <div class="card-body">
                     <img src="${photo}" class="team-icon" />    //???????
-                         <p class="card-text">${p.number}</p>
+                         <p class="card-text"># ${p.number}</p>
                             <h5 class="card-title">${p.firstName} ${p.lastName}</h5>
                 </div>
             </div>
