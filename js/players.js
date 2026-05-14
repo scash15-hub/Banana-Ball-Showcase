@@ -490,8 +490,7 @@ const fire = [
         lastName: "Shill",
         position: "RHP",
         photo: "fire/Shill.jpeg",
-
-        talentName: "",
+        talentName: "The Fire Marshall",
     },
     {
         number: "0",
@@ -499,8 +498,7 @@ const fire = [
         lastName: "Sparks",
         position: "OF",
         photo: "fire/Sparks.jpeg",
-
-        talentName: "",
+        talentName: "The Scoreboard Hunter",
     },
     {
         number: "1",
@@ -508,8 +506,7 @@ const fire = [
         lastName: "Dearman",
         position: "RHP",
         photo: "fire/Dearman.jpeg",
-
-        talentName: "",
+        talentName: "The First-Alarm Righty",
     },
     {
         number: "2",
@@ -517,8 +514,7 @@ const fire = [
         lastName: "Green",
         position: "SS",
         photo: "fire/Green.jpeg",
-
-        talentName: "",
+        talentName: "The Vacuum Shortstop",
     },
     {
         number: "3",
@@ -526,8 +522,7 @@ const fire = [
         lastName: "Cornett",
         position: "C",
         photo: "fire/Cornett.jpeg",
-
-        talentName: "",
+        talentName: "The Flame-Catcher",
     },
     {
         number: "3.14",
@@ -535,8 +530,7 @@ const fire = [
         lastName: "Pye",
         position: "Pitching Coach",
         photo: "fire/Pye.jpeg",
-
-        talentName: "",
+        talentName: "The Pi Tactician",
     },
     {
         number: "4",
@@ -544,8 +538,7 @@ const fire = [
         lastName: "Jones Jr.",
         position: "C/1B",
         photo: "fire/Jones Jr..jpeg",
-
-        talentName: "",
+        talentName: "The Two-Alarm Anchor",
     },
     {
         number: "6",
@@ -553,8 +546,7 @@ const fire = [
         lastName: "Temple",
         position: "RHP",
         photo: "fire/Temple.jpeg",
-
-        talentName: "",
+        talentName: "The Inferno Thrower",
     },
     {
         number: "7",
@@ -562,8 +554,7 @@ const fire = [
         lastName: "Maxwell",
         position: "OF",
         photo: "fire/Maxwell.jpeg",
-
-        talentName: "",
+        talentName: "The House Tracker",
     },
     {
         number: "8",
@@ -571,8 +562,7 @@ const fire = [
         lastName: "Trimble",
         position: "DR",
         photo: "fire/Trimble.jpeg",
-
-        talentName: "",
+        talentName: "The Dreamy Bandit",
     },
     {
         number: "9",
@@ -580,8 +570,7 @@ const fire = [
         lastName: "Bridges",
         position: "OF",
         photo: "fire/Bridges.jpeg",
-
-        talentName: "",
+        talentName: "The Best-Hair Flycatcher",
     },
     {
         number: "10",
@@ -589,8 +578,7 @@ const fire = [
         lastName: "",
         position: "1B/OF",
         photo: "fire/Darrien.jpeg",
-
-        talentName: "",
+        talentName: "The Corner Extinguisher",
     },
     {
         number: "11",
@@ -598,8 +586,7 @@ const fire = [
         lastName: "Lacey",
         position: "3B",
         photo: "fire/Lacey.jpeg",
-
-        talentName: "",
+        talentName: "The Hot-Corner Guard",
     },
     {
         number: "12",
@@ -607,8 +594,7 @@ const fire = [
         lastName: "Bridges",
         position: "C",
         photo: "fire/Bridges.jpeg",
-
-        talentName: "",
+        talentName: "The Bullet-Proof Backstop",
     },
     {
         number: "15",
@@ -625,8 +611,7 @@ const fire = [
         lastName: "Yniesta",
         position: "Assistant Coach",
         photo: "fire/Yniesta.jpeg",
-
-        talentName: "",
+        talentName: "The Rapid Transfer",
     },
     {
         number: "18",
@@ -634,8 +619,7 @@ const fire = [
         lastName: "Dum III",
         position: "RHP",
         photo: "fire/Dum III.jpeg",
-
-        talentName: "",
+        talentName: "The Sinker Specialist",
     },
     {
         number: "21",
@@ -643,8 +627,7 @@ const fire = [
         lastName: "Donalson",
         position: "RHP",
         photo: "fire/Donalson.jpeg",
-
-        talentName: "",
+        talentName: "The Heatwave Reliever",
     },
     {
         number: "22",
@@ -652,8 +635,7 @@ const fire = [
         lastName: "Phillips",
         position: "LHP",
         photo: "fire/Phillips.jpeg",
-
-        talentName: "",
+        talentName: "The Smokey Southpaw",
     },
     {
         number: "23",
@@ -661,8 +643,7 @@ const fire = [
         lastName: "Franklin Jr.",
         position: "OF",
         photo: "fire/Franklin Jr..jpeg",
-
-        talentName: "",
+        talentName: "The Blaze Runner",
     },
     {
         number: "24",
@@ -670,8 +651,7 @@ const fire = [
         lastName: "McFadden",
         position: "UTL",
         photo: "fire/McFadden.jpeg",
-
-        talentName: "",
+        talentName: "The Dual-Threat Fireman",
     },
     {
         number: "25",
@@ -679,8 +659,7 @@ const fire = [
         lastName: "Wray",
         position: "RHP",
         photo: "fire/Wray.jpeg",
-
-        talentName: "",
+        talentName: "The Delivery Engine",
     },
     {
         number: "27",
@@ -688,8 +667,7 @@ const fire = [
         lastName: "Perez",
         position: "Head Coach",
         photo: "fire/Perez.jpeg",
-
-        talentName: "",
+        talentName: "The Fire Chief",
     },
     {
         number: "29",
@@ -697,8 +675,7 @@ const fire = [
         lastName: "Trepanier",
         position: "P",
         photo: "fire/Trepanier.jpeg",
-
-        talentName: "",
+        talentName: "The Siren Slinger",
     },
     {
         number: "30",
@@ -706,8 +683,7 @@ const fire = [
         lastName: "Becerra",
         position: "OF",
         photo: "fire/Becerra.jpeg",
-
-        talentName: "",
+        talentName: "The Spark Plug",
     },
     {
         number: "37",
@@ -715,8 +691,7 @@ const fire = [
         lastName: "Morgan",
         position: "LHP",
         photo: "fire/Morgan.jpeg",
-
-        talentName: "",
+        talentName: "The Freeze Pitcher",
     },
     {
         number: "42",
@@ -724,8 +699,7 @@ const fire = [
         lastName: "Webb",
         position: "RHP",
         photo: "fire/Webb.jpeg",
-
-        talentName: "",
+        talentName: "The Flip-Pitch Trickster",
     },
     {
         number: "55",
@@ -733,8 +707,7 @@ const fire = [
         lastName: "Hughes",
         position: "UTL",
         photo: "fire/Hughes.jpeg",
-
-        talentName: "",
+        talentName: "The Engine Utility",
     },
     {
         number: "95",
@@ -742,8 +715,7 @@ const fire = [
         lastName: "Hummel",
         position: "RHP",
         photo: "fire/Hummel.jpeg",
-
-        talentName: "",
+        talentName: "The Rocket Launcher",
     },
 ];
 
@@ -755,8 +727,7 @@ const texas = [
         lastName: "Mikulik",
         position: "Coach",
         photo: "texas/Mikulik.jpeg",
-
-        talentName: "",
+        talentName: "The Umpire Tormentor",
     },
     {
         number: "",
@@ -764,8 +735,7 @@ const texas = [
         lastName: "Pennington",
         position: "Assistant Coach",
         photo: "texas/Pennington.jpeg",
-
-        talentName: "",
+        talentName: "The Strategy General",
     },
     {
         number: "",
@@ -773,8 +743,7 @@ const texas = [
         lastName: "Bartman",
         position: "Assistant Coach",
         photo: "texas/Bartman.jpeg",
-
-        talentName: "",
+        talentName: "The Drill Architect",
     },
     {
         number: "1",
@@ -782,8 +751,7 @@ const texas = [
         lastName: "Luders",
         position: "2B",
         photo: "texas/Luders.jpeg",
-
-        talentName: "",
+        talentName: "The Unicycle Juggler",
     },
     {
         number: "2",
@@ -791,8 +759,7 @@ const texas = [
         lastName: "Watson",
         position: "UTL",
         photo: "texas/Watson.jpeg",
-
-        talentName: "",
+        talentName: "THe Launchpad Outfielder",
     },
     {
         number: "3",
@@ -800,8 +767,7 @@ const texas = [
         lastName: "Arendt",
         position: "OF/ENT",
         photo: "texas/Arendt.jpeg",
-
-        talentName: "",
+        talentName: "The Showman Swing",
     },
     {
         number: "5",
@@ -809,8 +775,7 @@ const texas = [
         lastName: "Hussein",
         position: "SS",
         photo: "texas/Hussein.jpeg",
-
-        talentName: "",
+        talentName: "THe Smooth Operator SS",
     },
     {
         number: "6",
@@ -818,8 +783,7 @@ const texas = [
         lastName: "Barth",
         position: "INF",
         photo: "texas/Barth.jpeg",
-
-        talentName: "",
+        talentName: "The Hot-Corner Anchor",
     },
     {
         number: "7",
@@ -827,8 +791,7 @@ const texas = [
         lastName: "Stanley",
         position: "UTL",
         photo: "texas/Stanley.jpeg",
-
-        talentName: "",
+        talentName: "The Utility Swiss Army",
     },
     {
         number: "8",
@@ -836,8 +799,7 @@ const texas = [
         lastName: "Hughes",
         position: "RHP",
         photo: "texas/Hughes.jpeg",
-
-        talentName: "",
+        talentName: "The Opening-Day Fireballer",
     },
     {
         number: "9",
@@ -845,8 +807,7 @@ const texas = [
         lastName: "Lopez",
         position: "UTL",
         photo: "texas/Lopez.jpeg",
-
-        talentName: "",
+        talentName: "The Iron-Utility",
     },
     {
         number: "11",
@@ -854,8 +815,7 @@ const texas = [
         lastName: "Danford",
         position: "1B",
         photo: "texas/Danford.jpeg",
-
-        talentName: "",
+        talentName: "The Muscle Firstman",
     },
     {
         number: "12",
@@ -863,8 +823,7 @@ const texas = [
         lastName: "Davis",
         position: "LHP",
         photo: "texas/Davis.jpeg",
-
-        talentName: "",
+        talentName: "The Smokey Southpaw",
     },
     {
         number: "16",
@@ -872,8 +831,7 @@ const texas = [
         lastName: "Moniot",
         position: "3B",
         photo: "texas/Moniot.jpeg",
-
-        talentName: "",
+        talentName: "The Trick Thirdman",
     },
     {
         number: "17",
@@ -881,8 +839,7 @@ const texas = [
         lastName: "Sanchez",
         position: "RHP",
         photo: "texas/Sanchez.jpeg",
-
-        talentName: "",
+        talentName: "The McAllen Missile",
     },
     {
         number: "22",
@@ -890,8 +847,7 @@ const texas = [
         lastName: "Miller",
         position: "RHP",
         photo: "texas/Miller.jpeg",
-
-        talentName: "",
+        talentName: "The Shutout Slinger",
     },
     {
         number: "23",
@@ -899,8 +855,7 @@ const texas = [
         lastName: "Sperone",
         position: "RHP",
         photo: "texas/Sperone.jpeg",
-
-        talentName: "",
+        talentName: "The Cheese Chucker",
     },
     {
         number: "24",
@@ -908,8 +863,7 @@ const texas = [
         lastName: "Reid",
         position: "LHP",
         photo: "texas/Reid.jpeg",
-
-        talentName: "",
+        talentName: "The Pro-Stripe Lefty",
     },
     {
         number: "26",
@@ -917,8 +871,7 @@ const texas = [
         lastName: "Porter",
         position: "C",
         photo: "texas/Porter.jpeg",
-
-        talentName: "",
+        talentName: "The HBCU Swagger Backstop",
     },
     {
         number: "27",
@@ -926,8 +879,7 @@ const texas = [
         lastName: "Martin",
         position: "OF/1B",
         photo: "texas/Martin.jpeg",
-
-        talentName: "",
+        talentName: "The Border-to-Border Blast",
     },
     {
         number: "28",
@@ -935,8 +887,7 @@ const texas = [
         lastName: "Gonzalez",
         position: "OF/1B",
         photo: "texas/Gonzalez.jpeg",
-
-        talentName: "",
+        talentName: "The Deep-Drive King",
     },
     {
         number: "29",
@@ -944,8 +895,7 @@ const texas = [
         lastName: "Rigot",
         position: "LHP",
         photo: "texas/Rigot.jpeg",
-
-        talentName: "",
+        talentName: "The Batter-Blaster Lefty",
     },
     {
         number: "33",
@@ -953,8 +903,7 @@ const texas = [
         lastName: "Jones",
         position: "DR/ENT",
         photo: "texas/Jones.jpeg",
-
-        talentName: "",
+        talentName: "The Tailgate Hype-Man",
     },
     {
         number: "34",
@@ -962,8 +911,7 @@ const texas = [
         lastName: "Wiggins",
         position: "OF",
         photo: "texas/Wiggins.jpeg",
-
-        talentName: "",
+        talentName: "The Softball Royalty",
     },
     {
         number: "36",
@@ -971,8 +919,7 @@ const texas = [
         lastName: "Allen",
         position: "RHP",
         photo: "texas/Allen.jpeg",
-
-        talentName: "",
+        talentName: "The Delivery Chameleon",
     },
     {
         number: "37",
@@ -980,8 +927,7 @@ const texas = [
         lastName: "Blankenship",
         position: "LHP",
         photo: "texas/Blankenship.jpeg",
-
-        talentName: "",
+        talentName: "The Baseline Freeze",
     },
     {
         number: "44",
@@ -989,8 +935,7 @@ const texas = [
         lastName: "Clarke",
         position: "RHP",
         photo: "texas/Clarke.jpeg",
-
-        talentName: "",
+        talentName: "The Heavy-SInk Righty",
     },
     {
         number: "85",
@@ -998,8 +943,7 @@ const texas = [
         lastName: "Justus",
         position: "C",
         photo: "texas/Justus.jpeg",
-
-        talentName: "",
+        talentName: "The Plate General",
     },
     {
         number: "99",
@@ -1007,8 +951,7 @@ const texas = [
         lastName: "Lewis",
         position: "RHP",
         photo: "texas/Lewis.jpeg",
-
-        talentName: "",
+        talentName: "The Strikeout Jester",
     },
 ];
 
@@ -1020,8 +963,7 @@ const coco = [
         lastName: "Crocco",
         position: "Coach",
         photo: "coco/Crocco.jpeg",
-
-        talentName: "",
+        talentName: "The Dugout Director",
     },
     {
         number: "",
@@ -1029,8 +971,7 @@ const coco = [
         lastName: "Victorino",
         position: "Primetime Coach",
         photo: "coco/Victorino.jpeg",
-
-        talentName: "",
+        talentName: "The Flyin' Hawaiian",
     },
     {
         number: "",
@@ -1038,8 +979,7 @@ const coco = [
         lastName: "Marks",
         position: "Assistant Coach",
         photo: "coco/Marks.jpeg",
-
-        talentName: "",
+        talentName: "THe Outfield Architect",
     },
     {
         number: "",
@@ -1047,8 +987,7 @@ const coco = [
         lastName: "Morales",
         position: "Assistant Coach",
         photo: "coco/Morales.jpeg",
-
-        talentName: "",
+        talentName: "The Strategic Co-Pilot",
     },
     {
         number: "0",
@@ -1056,8 +995,7 @@ const coco = [
         lastName: "Williams",
         position: "RHP",
         photo: "coco/Williams.jpeg",
-
-        talentName: "",
+        talentName: "The Ground-Zero Reliever",
     },
     {
         number: "1",
@@ -1065,8 +1003,7 @@ const coco = [
         lastName: "Chatagnier",
         position: "INF",
         photo: "coco/Chatagnier.jpeg",
-
-        talentName: "",
+        talentName: "The High-Octane Infielder",
     },
     {
         number: "2",
@@ -1074,8 +1011,7 @@ const coco = [
         lastName: "Jacobo",
         position: "INF",
         photo: "coco/Jacobo.jpeg",
-
-        talentName: "",
+        talentName: "The Dirt-Diving Corner",
     },
     {
         number: "3",
@@ -1083,8 +1019,7 @@ const coco = [
         lastName: "Henderson",
         position: "DR/ENT",
         photo: "coco/Henderson.jpeg",
-
-        talentName: "",
+        talentName: "The High-Fashion Speedster",
     },
     {
         number: "4",
@@ -1092,8 +1027,7 @@ const coco = [
         lastName: "Carson",
         position: "LHP/OF/1B",
         photo: "coco/Carson.jpeg",
-
-        talentName: "",
+        talentName: "The Three-Way Weapon",
     },
     {
         number: "6",
@@ -1101,8 +1035,7 @@ const coco = [
         lastName: "Fontenot",
         position: "RHP",
         photo: "coco/Fontenot.jpeg",
-
-        talentName: "",
+        talentName: "The Fire-Throwing Righty",
     },
     {
         number: "7",
@@ -1110,8 +1043,7 @@ const coco = [
         lastName: "Urso",
         position: "UTL",
         photo: "coco/Urso.jpeg",
-
-        talentName: "",
+        talentName: "The Everywhere Swiss Army",
     },
     {
         number: "8",
@@ -1119,8 +1051,7 @@ const coco = [
         lastName: "Bowler",
         position: "OF/ENT",
         photo: "coco/Bowler.jpeg",
-
-        talentName: "",
+        talentName: "The Dance-Party Outfielder",
     },
     {
         number: "9",
@@ -1128,8 +1059,7 @@ const coco = [
         lastName: "Parker",
         position: "OF",
         photo: "coco/Parker.jpeg",
-
-        talentName: "",
+        talentName: "The Fly-Robbing Jet",
     },
     {
         number: "10",
@@ -1137,8 +1067,7 @@ const coco = [
         lastName: "Allen",
         position: "OF",
         photo: "coco/Allen.jpeg",
-
-        talentName: "",
+        talentName: "The Championship Swing",
     },
     {
         number: "11",
@@ -1146,8 +1075,7 @@ const coco = [
         lastName: "Vining",
         position: "C",
         photo: "coco/Vining.jpeg",
-
-        talentName: "",
+        talentName: "The Backstop Guardian",
     },
     {
         number: "12",
@@ -1155,8 +1083,7 @@ const coco = [
         lastName: "James",
         position: "RHP",
         photo: "coco/James.jpeg",
-
-        talentName: "",
+        talentName: "The Lockdown Slinger",
     },
     {
         number: "13",
@@ -1164,8 +1091,7 @@ const coco = [
         lastName: "Mauldin",
         position: "UTL",
         photo: "coco/Mauldin.jpeg",
-
-        talentName: "",
+        talentName: "The Utility Dynamo",
     },
     {
         number: "15",
@@ -1173,8 +1099,7 @@ const coco = [
         lastName: "Brewer",
         position: "1B/OF",
         photo: "coco/Brewer.jpeg",
-
-        talentName: "",
+        talentName: "The Launchpad Power",
     },
     {
         number: "17",
@@ -1182,8 +1107,7 @@ const coco = [
         lastName: "Benson",
         position: "LHP/ENT",
         photo: "coco/Benson.jpeg",
-
-        talentName: "",
+        talentName: "The Southpaw Performer",
     },
     {
         number: "18",
@@ -1191,8 +1115,7 @@ const coco = [
         lastName: "Antle",
         position: "OF",
         photo: "coco/Antle.jpeg",
-
-        talentName: "",
+        talentName: "The Grass Patrolman",
     },
     {
         number: "19",
@@ -1200,8 +1123,7 @@ const coco = [
         lastName: "Smith",
         position: "RHP",
         photo: "coco/Smith.jpeg",
-
-        talentName: "",
+        talentName: "The Slider Technician",
     },
     {
         number: "20",
@@ -1209,8 +1131,7 @@ const coco = [
         lastName: "Ethridge",
         position: "RHP",
         photo: "coco/Ethridge.jpeg",
-
-        talentName: "",
+        talentName: "The Heavy-Sink Righty",
     },
     {
         number: "21",
@@ -1218,8 +1139,7 @@ const coco = [
         lastName: "Ostberg",
         position: "C",
         photo: "coco/Ostberg.jpeg",
-
-        talentName: "",
+        talentName: "The High-Energy Backstop",
     },
     {
         number: "22",
@@ -1227,8 +1147,7 @@ const coco = [
         lastName: "Krzeminski",
         position: "RHP",
         photo: "coco/Krzeminski.jpeg",
-
-        talentName: "",
+        talentName: "The Mound Jester",
     },
     {
         number: "23",
@@ -1236,8 +1155,7 @@ const coco = [
         lastName: "Tofteland",
         position: "3B/1B",
         photo: "coco/Tofteland.jpeg",
-
-        talentName: "",
+        talentName: "The Corner Blast",
     },
     {
         number: "24",
@@ -1245,8 +1163,7 @@ const coco = [
         lastName: "Archer",
         position: "RHP",
         photo: "coco/Archer.jpeg",
-
-        talentName: "",
+        talentName: "The Bullseye Righty",
     },
     {
         number: "30",
@@ -1254,8 +1171,7 @@ const coco = [
         lastName: "Filomeno",
         position: "LHP",
         photo: "coco/Filomeno.jpeg",
-
-        talentName: "",
+        talentName: "The Fireman Southpaw",
     },
     {
         number: "31",
@@ -1263,8 +1179,7 @@ const coco = [
         lastName: "Morgan",
         position: "OF",
         photo: "coco/Morgan.jpeg",
-
-        talentName: "",
+        talentName: "The Baseline Eraser",
     },
     {
         number: "1 of 1",
@@ -1272,8 +1187,7 @@ const coco = [
         lastName: "Perry",
         position: "LHP",
         photo: "coco/Perry.jpeg",
-
-        talentName: "",
+        talentName: "The One-of-a-Kind Lefty",
     },
     {
         number: "222",
@@ -1281,8 +1195,7 @@ const coco = [
         lastName: "Benites",
         position: "C",
         photo: "coco/Benites.jpeg",
-
-        talentName: "",
+        talentName: "THe Tripple-Two Magician",
     },
 ];
 
