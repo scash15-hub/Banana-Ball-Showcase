@@ -1207,8 +1207,7 @@ const clowns = [
         lastName: "Fox",
         position: "Head Coach",
         photo: "clowns/Fox.jpeg",
-
-        talentName: "",
+        talentName: "The Circus Ringmaster",
     },
     {
         number: "",
@@ -1216,8 +1215,7 @@ const clowns = [
         lastName: "Howard",
         position: "Primetime Coach",
         photo: "clowns/Howard.jpeg",
-
-        talentName: "",
+        talentName: "The Big Piece",
     },
     {
         number: "",
@@ -1225,8 +1223,7 @@ const clowns = [
         lastName: "Carter",
         position: "Assistant Coach",
         photo: "clowns/Carter.jpeg",
-
-        talentName: "",
+        talentName: "The Blueprint Coach",
     },
     {
         number: "",
@@ -1234,8 +1231,7 @@ const clowns = [
         lastName: "Voiro",
         position: "Assistant Coach",
         photo: "clowns/Voiro.jpeg",
-
-        talentName: "",
+        talentName: "The Infield Mechanic",
     },
     {
         number: "1",
@@ -1243,8 +1239,7 @@ const clowns = [
         lastName: "Banks",
         position: "UTL",
         photo: "clowns/Banks.jpeg",
-
-        talentName: "",
+        talentName: "The Electric Utility",
     },
     {
         number: "2",
@@ -1252,8 +1247,7 @@ const clowns = [
         lastName: "Vosquez",
         position: "INF",
         photo: "clowns/Vosquez.jpeg",
-
-        talentName: "",
+        talentName: "The Smooth Operator",
     },
     {
         number: "3",
@@ -1261,8 +1255,7 @@ const clowns = [
         lastName: "Gray",
         position: "OF",
         photo: "clowns/Gray.jpeg",
-
-        talentName: "",
+        talentName: "The Launchpad Outfielder",
     },
     {
         number: "4",
@@ -1270,8 +1263,7 @@ const clowns = [
         lastName: "Voorhees",
         position: "RHP",
         photo: "clowns/Voorhees.jpeg",
-
-        talentName: "",
+        talentName: "The Bullseye Righty",
     },
     {
         number: "5",
@@ -1279,8 +1271,7 @@ const clowns = [
         lastName: "Dansereau",
         position: "OF",
         photo: "clowns/Dansereau.jpeg",
-
-        talentName: "",
+        talentName: "The Sky Patrol",
     },
     {
         number: "7",
@@ -1288,8 +1279,7 @@ const clowns = [
         lastName: "Lada",
         position: "INF",
         photo: "clowns/Lada.jpeg",
-
-        talentName: "",
+        talentName: "The Infield Cyclone",
     },
     {
         number: "8",
@@ -1297,8 +1287,7 @@ const clowns = [
         lastName: "Maddock",
         position: "RHP",
         photo: "clowns/Maddock.jpeg",
-
-        talentName: "",
+        talentName: "The Door Slammer",
     },
     {
         number: "9",
@@ -1306,8 +1295,7 @@ const clowns = [
         lastName: "Burgess",
         position: "C",
         photo: "clowns/Burgess.jpeg",
-
-        talentName: "",
+        talentName: "The Iron Backstop",
     },
     {
         number: "11",
@@ -1315,8 +1303,7 @@ const clowns = [
         lastName: "Prime",
         position: "RHP/INF",
         photo: "clowns/Prime.jpeg",
-
-        talentName: "",
+        talentName: "The Two-Way Royalty",
     },
     {
         number: "12",
@@ -1324,8 +1311,7 @@ const clowns = [
         lastName: "Hulsizer",
         position: "OF",
         photo: "clowns/Hulsizer.jpeg",
-
-        talentName: "",
+        talentName: "The Tape-Meeasure King",
     },
     {
         number: "13",
@@ -1333,8 +1319,7 @@ const clowns = [
         lastName: "Gilmore",
         position: "RHP",
         photo: "clowns/Gilmore.jpeg",
-
-        talentName: "",
+        talentName: "The Fire Starter",
     },
     {
         number: "15",
@@ -1342,8 +1327,7 @@ const clowns = [
         lastName: "Griffin",
         position: "RHP",
         photo: "clowns/Griffin.jpeg",
-
-        talentName: "",
+        talentName: "The Mound Anchor",
     },
     {
         number: "16",
@@ -1351,8 +1335,7 @@ const clowns = [
         lastName: "Paton",
         position: "INF",
         photo: "clowns/Paton.jpeg",
-
-        talentName: "",
+        talentName: "The Corner Jewel",
     },
     {
         number: "19",
@@ -1360,8 +1343,7 @@ const clowns = [
         lastName: "Bradley Jr.",
         position: "OF",
         photo: "clowns/Bradley Jr..jpeg",
-
-        talentName: "",
+        talentName: "The Gold Glove Legend",
     },
     {
         number: "21",
@@ -1369,8 +1351,7 @@ const clowns = [
         lastName: "Santarseiro",
         position: "RHP",
         photo: "clowns/Santarseiro.jpeg",
-
-        talentName: "",
+        talentName: "The Gravity Drop",
     },
     {
         number: "22",
@@ -1378,8 +1359,7 @@ const clowns = [
         lastName: "Lytle",
         position: "C",
         photo: "clowns/Lytle.jpeg",
-
-        talentName: "",
+        talentName: "The Dugout General",
     },
     {
         number: "24",
@@ -1387,8 +1367,7 @@ const clowns = [
         lastName: "Robinson",
         position: "RHP",
         photo: "clowns/Robinson.jpeg",
-
-        talentName: "",
+        talentName: "The High-Velocity Spark",
     },
     {
         number: "25",
@@ -1396,8 +1375,7 @@ const clowns = [
         lastName: "Reinoso",
         position: "RHP",
         photo: "clowns/Reinoso.jpeg",
-
-        talentName: "",
+        talentName: "The Showman Slinger",
     },
     {
         number: "33",
@@ -1405,8 +1383,7 @@ const clowns = [
         lastName: "Wilson",
         position: "RHP",
         photo: "clowns/Wilson.jpeg",
-
-        talentName: "",
+        talentName: "The Relief Firewall",
     },
     {
         number: "34",
@@ -1414,8 +1391,7 @@ const clowns = [
         lastName: "Foster",
         position: "LHP",
         photo: "clowns/Foster.jpeg",
-
-        talentName: "",
+        talentName: "The Smokey Southpaw",
     },
     {
         number: "44",
@@ -1423,8 +1399,7 @@ const clowns = [
         lastName: "Francis Jr.",
         position: "UTL",
         photo: "clowns/Francis Jr..jpeg",
-
-        talentName: "",
+        talentName: "The Heavy Hitter",
     },
     {
         number: "67",
@@ -1432,8 +1407,7 @@ const clowns = [
         lastName: "Irvine",
         position: "RHP",
         photo: "clowns/Irvine.jpeg",
-
-        talentName: "",
+        talentName: "The Freight Train",
     },
     {
         number: "!",
@@ -1441,8 +1415,7 @@ const clowns = [
         lastName: "Wolf",
         position: "RHP/2B/ENT",
         photo: "clowns/Wolf.jpeg",
-
-        talentName: "",
+        talentName: "The Trick-Play Joker",
     },
     {
         number: "∞",
@@ -1450,8 +1423,7 @@ const clowns = [
         lastName: "Polydoroff",
         position: "RHP/EH/ENT",
         photo: "clowns/Polydoroff.jpeg",
-
-        talentName: "",
+        talentName: "The Endless Blast",
     },
     {
         number: "🗲",
@@ -1459,11 +1431,6 @@ const clowns = [
         lastName: "Mitchell",
         position: "EH/DR",
         photo: "clowns/Mitchell.jpeg",
-
-        talentName: "",
+        talentName: "Flash Tha Kid",
     },
 ];
-
-// check to make sure the array is properly defined and accessible
-console.log(savannah);
-console.log(savannah[0]);
