@@ -1431,6 +1431,6 @@ const clowns = [
         lastName: "Mitchell",
         position: "EH/DR",
         photo: "clowns/Mitchell.jpeg",
-        talentName: "Flash Tha Kid",
+        talentName: "Flash Tha Kid     ",
     },
 ];
