@@ -3,8 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const col = document.createElement("div");
     col.className = "col-lg-3 col-md-4 col-sm-6";
 
+    const bgClass = player.photo
+      ? player.photo.split("/").pop().split(".")[0]
+      : player.lastName || "";
+
     col.innerHTML = `
-      <div class="card player-card ${player.lastName || ""}">
+      <div class="card player-card ${bgClass} ${player.lastName || ""}">
         <div class="card-body">
           <img src="${teamName}/banana.png" class="team-icon" alt="team icon" />
           <p class="card-text">#${player.number}</p>
