@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     col.innerHTML = `
       <div class="card player-card ${bgClass} ${player.lastName || ""}">
         <div class="card-body">
-          <img src="${teamName}/banana.png" class="team-icon" alt="team icon" />
+          <img src="" class="team-icon" alt="team icon" />
           <p class="card-text">#${player.number}</p>
           <h5 class="card-title">
             ${player.firstName || ""} ${player.lastName || ""}
@@ -30,7 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
     container.innerHTML = "";
 
     teamArray.forEach((player) => {
-      container.appendChild(createCard(player, teamFolder));
+      const iconFile = teamFolder === "savannah" ? "banana.png" : `${teamFolder}.png`;
+      const col = createCard(player, teamFolder);
+      col.querySelector(".team-icon").src = `${teamFolder}/${iconFile}`;
+      container.appendChild(col);
     });
   };
 

@@ -149,105 +149,524 @@ p {
 }
 
 /*player-bg imgs*/
+/*banana*/
 .LeRoy {
- background-image: url("savannah/LeRoy.png");
+  background-image: url("savannah/LeRoy.png");
 }
 .Alexiades {
- background-image: url("savannah/Alexiades.png");
- background-size: 150%;
- background-position: center;
+  background-image: url("savannah/Alexiades.png");
+  background-size: 150%;
+  background-position: center;
 }
 .Grizzaffi {
- background-image: url("savannah/Grizzaffi.png");
+  background-image: url("savannah/Grizzaffi.png");
 }
 .KJ {
- background-image: url("savannah/KJ.png");
+  background-image: url("savannah/KJ.png");
 }
 .Meadows {
- background-image: url("savannah/Meadows.png");
+  background-image: url("savannah/Meadows.png");
 }
 .Cox {
- background-image: url("savannah/Cox.png");
+  background-image: url("savannah/Cox.png");
 }
 .Ty {
- background-image: url("savannah/Ty.png");
+  background-image: url("savannah/Ty.png");
 }
 .Olson {
- background-image: url("savannah/Olson.png");
+  background-image: url("savannah/Olson.png");
 }
 .Jung-Goldberg {
- background-image: url("savannah/Jung-Goldberg.png");
+  background-image: url("savannah/Jung-Goldberg.png");
 }
 .Ziegler {
- background-image: url("savannah/Ziegler.png");
+  background-image: url("savannah/Ziegler.png");
 }
 .Drury {
- background-image: url("savannah/Drury.png");
+  background-image: url("savannah/Drury.png");
 }
 .Luigs {
- background-image: url("savannah/Luigs.png");
+  background-image: url("savannah/Luigs.png");
 }
 .Stober {
- background-image: url("savannah/Stober.png");
+  background-image: url("savannah/Stober.png");
 }
 .Albritton {
- background-image: url("savannah/Albritton.png");
+  background-image: url("savannah/Albritton.png");
 }
 .Cruz {
- background-image: url("savannah/Cruz.png");
+  background-image: url("savannah/Cruz.png");
 }
 .Virant {
- background-image: url("savannah/Virant.png");
+  background-image: url("savannah/Virant.png");
 }
 .Parrish {
- background-image: url("savannah/Parrish.png");
+  background-image: url("savannah/Parrish.png");
 }
 .Hosley {
- background-image: url("savannah/Hosley.png");
+  background-image: url("savannah/Hosley.png");
 }
 .Oberst {
- background-image: url("savannah/Oberst.png");
+  background-image: url("savannah/Oberst.png");
 }
 .Besser {
- background-image: url("savannah/Besser.png");
+  background-image: url("savannah/Besser.png");
 }
 .Bazala {
- background-image: url("savannah/Bazala.png");
+  background-image: url("savannah/Bazala.png");
 }
 .Sokolove {
- background-image: url("savannah/Sokolove.png");
+  background-image: url("savannah/Sokolove.png");
 }
 .Horton {
- background-image: url("savannah/Horton.png");
+  background-image: url("savannah/Horton.png");
 }
 .Klena {
- background-image: url("savannah/Klena.png");
+  background-image: url("savannah/Klena.png");
 }
 .Harris {
- background-image: url("savannah/Harris.png");
+  background-image: url("savannah/Harris.png");
 }
 .Levesque {
- background-image: url("savannah/Levesque.png");
+  background-image: url("savannah/Levesque.png");
 }
 .Whitmore {
- background-image: url("savannah/Whitmore.png");
+  background-image: url("savannah/Whitmore.png");
 }
 .Saathoff {
- background-image: url("savannah/Saathoff.png");
+  background-image: url("savannah/Saathoff.png");
 }
 .Kellogg {
- background-image: url("savannah/Kellogg.png");
+  background-image: url("savannah/Kellogg.png");
 }
 .Gillum {
- background-image: url("savannah/Gillum.png");
+  background-image: url("savannah/Gillum.png");
 }
 .Niznik {
- background-image: url("savannah/Niznik.png");
+  background-image: url("savannah/Niznik.png");
 }
 .Moscatiello {
- background-image: url("savannah/Moscatiello.png");
+  background-image: url("savannah/Moscatiello.png");
 }
-
+.Simoneaux {
+  background-image: url("party_animals/Simoneaux.png");
+}
+/*party*/
+.Simoneaux {
+  background-image: url("party/Simoneaux.png");
+}
+.Lansdell {
+  background-image: url("party/Lansdell.png");
+}
+.Swan {
+  background-image: url("party/Swan.png");
+}
+.Reeves {
+  background-image: url("party/Reeves.png");
+}
+.Thomas {
+  background-image: url("party/Thomas.png");
+}
+.Cosgrove {
+  background-image: url("party/Cosgrove.png");
+}
+.Hampton {
+  background-image: url("party/Hampton.png");
+}
+.Vavasis {
+  background-image: url("party/Vavasis.png");
+}
+.Bloomer {
+  background-image: url("party/Bloomer.png");
+}
+.Baber {
+  background-image: url("party/Baber.png");
+}
+.Helton {
+  background-image: url("party/Helton.png");
+}
+.Achuff {
+  background-image: url("party/Achuff.png");
+}
+.Fisher {
+  background-image: url("party/Fisher.png");
+}
+.Kais {
+  background-image: url("party/Kais.png");
+}
+.Porter {
+  background-image: url("party/Porter.png");
+}
+.Ponce {
+  background-image: url("party/Ponce.png");
+}
+.Rodriguez {
+  background-image: url("party/Rodriguez.png");
+}
+.Holden {
+  background-image: url("party/Holden.png");
+}
+.Fluke {
+  background-image: url("party/Fluke.png");
+}
+.Tellier {
+  background-image: url("party/Tellier.png");
+}
+.Lialios {
+  background-image: url("party/Lialios.png");
+}
+.Gillespie {
+  background-image: url("party/Gillespie.png");
+}
+.Smith {
+  background-image: url("party/Smith.png");
+}
+.Balholm {
+  background-image: url("party/Balholm.png");
+}
+.Coromato {
+  background-image: url("party/Coromato.png");
+}
+.Ballard {
+  background-image: url("party/Ballard.png");
+}
+.Delano {
+  background-image: url("party/Delano.png");
+}
+.Bobo {
+  background-image: url("party/Bobo.png");
+}
+.Skole {
+  background-image: url("party/Skole.png");
+}
+/*fire*/
+.Shill {
+  background-image: url("fire/Firefighters/Shill.png");
+}
+.Sparks {
+  background-image: url("fire/Sparks.png");
+}
+.Dearman {
+  background-image: url("fire/Dearman.png");
+}
+.Green {
+  background-image: url("fire/Green.png");
+}
+.Cornett {
+  background-image: url("fire/Cornett.png");
+}
+.Pye {
+  background-image: url("fire/Pye.png");
+}
+.Jones {
+  background-image: url("fire/Jones.png");
+}
+.Temple {
+  background-image: url("fire/Temple.png");
+}
+.Maxwell {
+  background-image: url("fire/Maxwell.png");
+}
+.Trimble {
+  background-image: url("fire/Trimble.png");
+}
+.Bridges {
+  background-image: url("fire/Bridges.png");
+}
+.Lacey {
+  background-image: url("fire/Lacey.png");
+}
+.Spence {
+  background-image: url("fire/Spence.png");
+}
+.Donaldson {
+  background-image: url("fire/Donaldson.png");
+}
+.Phillips {
+  background-image: url("fire/Phillips.png");
+}
+.Franklin {
+  background-image: url("fire/Franklin.png");
+}
+.McFadden {
+  background-image: url("fire/McFadden.png");
+}
+.Wray {
+  background-image: url("fire/Wray.png");
+}
+.Perez {
+  background-image: url("fire/Perez.png");
+}
+.Trepanier {
+  background-image: url("fire/Trepanier.png");
+}
+.Becerra {
+  background-image: url("fire/Becerra.png");
+}
+.Morgan {
+  background-image: url("fire/Morgan.png");
+}
+.Webb {
+  background-image: url("fire/Webb.png");
+}
+.Hughes {
+  background-image: url("fire/Hughes.png");
+}
+.Hummel {
+  background-image: url("fire/Hummel.png");
+}
+/*texas*/
+.Mikulik {
+  background-image: url("texas/Mikulik.png");
+}
+.Pennington {
+  background-image: url("texas/Pennington.png");
+}
+.Bartman {
+  background-image: url("texas/Bartman.png");
+}
+.Luders {
+  background-image: url("texas/Luders.png");
+}
+.Watson {
+  background-image: url("texas/Watson.png");
+}
+.Arendt {
+  background-image: url("texas/Arendt.png");
+}
+.Hussein {
+  background-image: url("texas/Hussein.png");
+}
+.Barth {
+  background-image: url("texas/Barth.png");
+}
+.Stanley {
+  background-image: url("texas/Stanley.png");
+}
+.Hughes {
+  background-image: url("texas/Hughes.png");
+}
+.Lopez {
+  background-image: url("texas/Lopez.png");
+}
+.Danford {
+  background-image: url("texas/Danford.png");
+}
+.Davis {
+  background-image: url("texas/Davis.png");
+}
+.Moniot {
+  background-image: url("texas/Moniot.png");
+}
+.Sanchez {
+  background-image: url("texas/Sanchez.png");
+}
+.Miller {
+  background-image: url("texas/Miller.png");
+}
+.Sperone {
+  background-image: url("texas/Sperone.png");
+}
+.Reid {
+  background-image: url("texas/Reid.png");
+}
+.Porter {
+  background-image: url("texas/Porter.png");
+}
+.Gonzalez {
+  background-image: url("texas/Gonzalez.png");
+}
+.Rigot {
+  background-image: url("texas/Rigot.png");
+}
+.Jones {
+  background-image: url("texas/Jones.png");
+}
+.Clarke {
+  background-image: url("texas/Clarke.png");
+}
+.Justus {
+  background-image: url("texas/Justus.png");
+}
+.Lewis {
+  background-image: url("texas/Lewis.png");
+}
+/*coco*/
+.Crocco {
+  background-image: url("coco/Crocco.png");
+}
+.Victorino {
+  background-image: url("coco/Victorino.png");
+}
+.Marks {
+  background-image: url("coco/Marks.png");
+}
+.Morales {
+  background-image: url("coco/Morales.png");
+}
+.Williams {
+  background-image: url("coco/Williams.png");
+}
+.Chatagnier {
+  background-image: url("coco/Chatagnier.png");
+}
+.Jacobo {
+  background-image: url("coco/Jacobo.png");
+}
+.Henderson {
+  background-image: url("coco/Henderson.png");
+}
+.Carson {
+  background-image: url("coco/Carson.png");
+}
+.Fontenot {
+  background-image: url("coco/Fontenot.png");
+}
+.Urso {
+  background-image: url("coco/Urso.png");
+}
+.Bowler {
+  background-image: url("coco/Bowler.png");
+}
+.Parker {
+  background-image: url("coco/Parker.png");
+}
+.Allen {
+  background-image: url("coco/Allen.png");
+}
+.Vining {
+  background-image: url("coco/Vining.png");
+}
+.James {
+  background-image: url("coco/James.png");
+}
+.Mauldin {
+  background-image: url("coco/Mauldin.png");
+}
+.Brewer {
+  background-image: url("coco/Brewer.png");
+}
+.Benson {
+  background-image: url("coco/Benson.png");
+}
+.Antle {
+  background-image: url("coco/Antle.png");
+}
+.Smith {
+  background-image: url("coco/Smith.png");
+}
+.Ethridge {
+  background-image: url("coco/Ethridge.png");
+}
+.Ostberg {
+  background-image: url("coco/Ostberg.png");
+}
+.Krzeminski {
+  background-image: url("coco/Krzeminski.png");
+}
+.Tofteland {
+  background-image: url("coco/Tofteland.png");
+}
+.Archer {
+  background-image: url("coco/Archer.png");
+}
+.Filomeno {
+  background-image: url("coco/Filomeno.png");
+}
+.Morgan {
+  background-image: url("coco/Morgan.png");
+}
+.Perry {
+  background-image: url("coco/Perry.png");
+}
+.Benites {
+  background-image: url("coco/Benites.png");
+}
+/*clowns*/
+.Fox {
+  background-image: url("clowns/Fox.png");
+}
+.Howard {
+  background-image: url("clowns/Howard.png");
+}
+.Carter {
+  background-image: url("clowns/Carter.png");
+}
+.Voiro {
+  background-image: url("clowns/Voiro.png");
+}
+.Banks {
+  background-image: url("clowns/Banks.png");
+}
+.Vosquez {
+  background-image: url("clowns/Vosquez.png");
+}
+.Gray {
+  background-image: url("clowns/Gray.png");
+}
+.Voorhees {
+  background-image: url("clowns/Voorhees.png");
+}
+.Dansereau {
+  background-image: url("clowns/Dansereau.png");
+}
+.Lada {
+  background-image: url("clowns/Lada.png");
+}
+.Maddock {
+  background-image: url("clowns/Maddock.png");
+}
+.Burgess {
+  background-image: url("clowns/Burgess.png");
+}
+.Prime {
+  background-image: url("clowns/Prime.png");
+}
+.Hulsizer {
+  background-image: url("clowns/Hulsizer.png");
+}
+.Gilmore {
+  background-image: url("clowns/Gilmore.png");
+}
+.Griffin {
+  background-image: url("clowns/Griffin.png");
+}
+.Paton {
+  background-image: url("clowns/Paton.png");
+}
+.Bradley {
+  background-image: url("clowns/Bradley.png");
+}
+.Santarseiro {
+  background-image: url("clowns/Santarseiro.png");
+}
+.Lytle {
+  background-image: url("clowns/Lytle.png");
+}
+.Reinoso {
+  background-image: url("clowns/Reinoso.png");
+}
+.Wilson {
+  background-image: url("clowns/Wilson.png");
+}
+.Foster {
+  background-image: url("clowns/Foster.png");
+}
+.Francis {
+  background-image: url("clowns/Francis.png");
+}
+.Irvine {
+  background-image: url("clowns/Irvine.png");
+}
+.Wolf {
+  background-image: url("clowns/Wolf.png");
+}
+.Polydoroff {
+  background-image: url("clowns/Polydoroff.png");
+}
+.Mitchell {
+  background-image: url("clowns/Mitchell.png");
+}
 
 /*Sizing for img*/
 .LeRoy,
@@ -281,8 +700,145 @@ p {
 .Kellogg,
 .Gillum,
 .Niznik,
-.Moscatiello {
- background-size: cover;
- background-position: top center;
- background-repeat: no-repeat;
+.Moscatiello
+.Simoneaux
+.Lansdell
+.Swan
+.Reeves
+.Thomas
+.Cosgrove
+.Hampton
+.Vavasis
+.Bloomer
+.Baber
+.Helton
+.Achuff
+.Fisher
+.Kais
+.Porter
+.Ponce
+.Rodriguez
+.Holden
+.Fluke
+.Tellier
+.Lialios
+.Gillespie
+.Smith
+.Balholm
+.Coromato
+.Ballard
+.Delano
+.Bobo
+.Skole
+.Shill
+.Sparks
+.Dearman
+.Green
+.Cornett
+.Pye
+.Jones
+.Temple
+.Maxwell
+.Trimble
+.Bridges
+.Lacey
+.Spence
+.Donaldson
+.Phillips
+.Franklin
+.McFadden
+.Wray
+.Perez
+.Trepanier
+.Becerra
+.Morgan
+.Webb
+.Hughes
+.Hummel
+.Mikulik
+.Pennington
+.Bartman
+.Luders
+.Watson
+.Arendt
+.Hussein
+.Barth
+.Stanley
+.Hughes
+.Lopez
+.Danford
+.Davis
+.Moniot
+.Sanchez
+.Miller
+.Sperone
+.Reid
+.Porter
+.Gonzalez
+.Rigot
+.Jones
+.Clarke
+.Justus
+.Lewis
+.Crocco
+.Victorino
+.Marks
+.Morales
+.Williams
+.Chatagnier
+.Jacobo
+.Henderson
+.Carson
+.Fontenot
+.Urso
+.Bowler
+.Parker
+.Allen
+.Vining
+.James
+.Mauldin
+.Brewer
+.Benson
+.Antle
+.Smith
+.Ethridge
+.Ostberg
+.Krzeminski
+.Tofteland
+.Archer
+.Filomeno
+.Morgan
+.Perry
+.Benites
+.Fox
+.Howard
+.Carter
+.Voiro
+.Banks
+.Vosquez
+.Gray
+.Voorhees
+.Dansereau
+.Lada
+.Maddock
+.Burgess
+.Prime
+.Hulsizer
+.Gilmore
+.Griffin
+.Paton
+.Bradley
+.Santarseiro
+.Lytle
+.Reinoso
+.Wilson
+.Foster
+.Francis
+.Irvine
+.Wolf
+.Polydoroff
+.Mitchell {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
