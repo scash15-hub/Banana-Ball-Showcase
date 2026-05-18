@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const bgClass = player.photo
       ? player.photo.split("/").pop().split(".")[0]
-      : player.lastName || "";
+      : player.lastName;
 
     col.innerHTML = `
-      <div class="card player-card ${bgClass} ${player.lastName || ""}">
+      <div class="card player-card ${bgClass} ${player.lastName}">
         <div class="card-body">
           <img src="" class="team-icon" alt="team icon" />
           <p class="card-text">#${player.number}</p>
           <h5 class="card-title">
-            ${player.firstName || ""} ${player.lastName || ""}
+            ${player.firstName} ${player.lastName}
           </h5>
         </div>
       </div>
@@ -32,7 +32,17 @@ document.addEventListener("DOMContentLoaded", () => {
     teamArray.forEach((player) => {
       const iconFile = teamFolder === "savannah" ? "banana.png" : `${teamFolder}.png`;
       const col = createCard(player, teamFolder);
-      col.querySelector(".team-icon").src = `${teamFolder}/${iconFile}`;
+      const icon = col.querySelector(".team-icon");
+      icon.src = `${teamFolder}/${iconFile}`;
+     
+
+      icon.addEventListener("click", () => {
+        console.log(player.firstName);
+//give ids in modal the values from player object
+//TURN DISPLAY ON for MODAL
+
+
+      });
       container.appendChild(col);
     });
   };
@@ -43,4 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTeam(texas, "texas", "texas");
   renderTeam(coco, "coco", "coco");
   renderTeam(clowns, "clowns", "clowns");
+
+
 });
+

@@ -148,6 +148,14 @@ p {
   color: #333;
 }
 
+h2 {
+font-family: "industry-inc-bevel", sans-serif;
+font-weight: 400;
+font-style: normal;
+  color: #333;
+  
+}
+
 /*player-bg imgs*/
 /*banana*/
 .LeRoy {
