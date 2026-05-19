@@ -127,33 +127,6 @@ body {
   }
 }
 
-.savannah {
-  border: 5px solid gold;
-}
-
-.party {
-  border: 5px solid hotpink;
-}
-
-.fire {
-  border: 5px solid red;
-}
-
-.texas {
-  border: 5px solid orange;
-}
-
-.coco {
-  border: 5px solid limegreen;
-}
-
-.clowns {
-  border: 5px solid purple;
-}
-
-
-
-
 h5 {
   font-family: "sporty-pro-inline", sans-serif;
   font-weight: 400;
@@ -309,95 +282,95 @@ h2 {
   background-image: url("savannah/Moscatiello.png");
 }
 .Simoneaux {
-  background-image: url("party_animals/Simoneaux.png");
+  background-image: url("party_animals/Simoneaux.jpg");
 }
 /*party*/
 .Simoneaux {
-  background-image: url("party/Simoneaux.png");
+  background-image: url("party/Simoneaux.jpg");
 }
 .Lansdell {
-  background-image: url("party/Lansdell.png");
+  background-image: url("party/Lansdell.jpg");
 }
 .Swan {
-  background-image: url("party/Swan.png");
+  background-image: url("party/Swan.jpg");
 }
 .Reeves {
-  background-image: url("party/Reeves.png");
+  background-image: url("party/Reeves.jpeg");
 }
 .Thomas {
-  background-image: url("party/Thomas.png");
+  background-image: url("party/Thomas.jpeg");
 }
 .Cosgrove {
-  background-image: url("party/Cosgrove.png");
+  background-image: url("party/Cosgrove.jpeg");
 }
 .Hampton {
-  background-image: url("party/Hampton.png");
+  background-image: url("party/Hampton.jpeg");
 }
 .Vavasis {
-  background-image: url("party/Vavasis.png");
+  background-image: url("party/Vavasis.jpeg");
 }
 .Bloomer {
-  background-image: url("party/Bloomer.png");
+  background-image: url("party/Bloomer.jpeg");
 }
 .Baber {
-  background-image: url("party/Baber.png");
+  background-image: url("party/Baber.jpeg");
 }
 .Helton {
-  background-image: url("party/Helton.png");
+  background-image: url("party/Helton.jpeg");
 }
 .Achuff {
-  background-image: url("party/Achuff.png");
+  background-image: url("party/Achuff.jpeg");
 }
 .Fisher {
-  background-image: url("party/Fisher.png");
+  background-image: url("party/Fisher.jpeg");
 }
 .Kais {
-  background-image: url("party/Kais.png");
+  background-image: url("party/Kais.jpeg");
 }
 .Porter {
-  background-image: url("party/Porter.png");
+  background-image: url("party/Porter.jpeg");
 }
 .Ponce {
-  background-image: url("party/Ponce.png");
+  background-image: url("party/Ponce.jpeg");
 }
 .Rodriguez {
-  background-image: url("party/Rodriguez.png");
+  background-image: url("party/Rodriguez.jpeg");
 }
 .Holden {
-  background-image: url("party/Holden.png");
+  background-image: url("party/Holden.jpeg");
 }
 .Fluke {
-  background-image: url("party/Fluke.png");
+  background-image: url("party/Fluke.jpeg");
 }
 .Tellier {
-  background-image: url("party/Tellier.png");
+  background-image: url("party/Tellier.jpeg");
 }
 .Lialios {
-  background-image: url("party/Lialios.png");
+  background-image: url("party/Lialios.jpeg");
 }
 .Gillespie {
-  background-image: url("party/Gillespie.png");
+  background-image: url("party/Gillespie.jpeg");
 }
 .Smith {
-  background-image: url("party/Smith.png");
+  background-image: url("party/Smith.jpeg");
 }
 .Balholm {
-  background-image: url("party/Balholm.png");
+  background-image: url("party/Balholm.jpeg");
 }
 .Coromato {
-  background-image: url("party/Coromato.png");
+  background-image: url("party/Coromato.jpeg");
 }
 .Ballard {
-  background-image: url("party/Ballard.png");
+  background-image: url("party/Ballard.jpeg");
 }
 .Delano {
-  background-image: url("party/Delano.png");
+  background-image: url("party/Delano.jpeg");
 }
 .Bobo {
-  background-image: url("party/Bobo.png");
+  background-image: url("party/Bobo.jpeg");
 }
 .Skole {
-  background-image: url("party/Skole.png");
+  background-image: url("party/Skole.jpeg");
 }
 /*fire*/
 .Shill {
@@ -903,15 +876,6 @@ h2 {
   background-repeat: no-repeat;
 }
 
-/* ai: alternating border colors for player cards */
-.player-card.even {
-  border: 5px solid rgba(255, 215, 0, 0.95); /* ai */
-}
-
-.player-card.odd {
-  border: 5px solid rgba(30, 144, 255, 0.95); /* ai */
-}
-
 /* ai: Make .col-five take 20% width (5 cards per row) at large screens */
 @media (min-width: 992px) {
   .col-five {
@@ -919,3 +883,28 @@ h2 {
     max-width: 20%;
   }
 }
+
+/* ai: per-team alternating border colors (even/odd) */
+/* Savannah */
+.player-card.savannah.even { border: 5px solid #82BD4D; }
+.player-card.savannah.odd  { border: 5px solid #FCCD0C; }
+
+/* Party */
+.player-card.party.odd { border: 5px solid #82BD4D; }
+.player-card.party.even  { border: 5px solid #E2186D; }
+
+/* Fire */
+.player-card.fire.odd { border: 5px solid #FFF301; }
+.player-card.fire.even  { border: 5px solid #EE2D24; }
+
+/* Texas */
+.player-card.texas.even { border: 5px solid #3C64C8; }
+.player-card.texas.odd  { border: 5px solid orangered; }
+
+/* Coco */
+.player-card.coco.odd { border: 5px solid #ED9625; }
+.player-card.coco.even  { border: 5px solid #49C1BB; }
+
+/* Clowns */
+.player-card.clowns.even { border: 5px solid #9F3323; }
+.player-card.clowns.odd  { border: 5px solid #B68150; }

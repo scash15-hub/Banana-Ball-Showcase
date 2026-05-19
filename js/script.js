@@ -4,9 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ai: added 'col-five' to support 5 cards per row at large screens
     col.className = "col-lg-3 col-md-4 col-sm-6 col-five";
 
-    const bgClass = player.photo
-      ? player.photo.split("/").pop().split(".")[0]
-      : player.lastName;
+    const bgClass = player.lastName;
 
     col.innerHTML = `
       <div class="card player-card ${bgClass} ${teamName}">
