@@ -1,14 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   const createCard = (player, teamName) => {
     const col = document.createElement("div");
-    col.className = "col-lg-3 col-md-4 col-sm-6";
+    // ai: added 'col-five' to support 5 cards per row at large screens
+    col.className = "col-lg-3 col-md-4 col-sm-6 col-five";
 
     const bgClass = player.photo
       ? player.photo.split("/").pop().split(".")[0]
       : player.lastName;
 
     col.innerHTML = `
-      <div class="card player-card ${bgClass} ${player.lastName}">
+      <div class="card player-card ${bgClass} ${teamName}">
         <div class="card-body">
           <img src="" class="team-icon" alt="team icon" />
           <p class="card-text">#${player.number}</p>
@@ -29,9 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     container.innerHTML = "";
 
-    teamArray.forEach((player) => {
+    teamArray.forEach((player, index) => {
       const iconFile = teamFolder === "savannah" ? "banana.png" : `${teamFolder}.png`;
       const col = createCard(player, teamFolder);
+      // ai: add alternating even/odd class per team member
+      const cardEl = col.querySelector('.player-card');
+      if (cardEl) {
+        cardEl.classList.add(index % 2 === 0 ? 'even' : 'odd'); // ai
+      }
       const icon = col.querySelector(".team-icon");
       icon.src = `${teamFolder}/${iconFile}`;
 
@@ -58,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       container.appendChild(col);
     });
+    
   };
 
   renderTeam(savannah, "savannah", "savannah");
