@@ -34,12 +34,25 @@ document.addEventListener("DOMContentLoaded", () => {
       const col = createCard(player, teamFolder);
       const icon = col.querySelector(".team-icon");
       icon.src = `${teamFolder}/${iconFile}`;
-     
+
 
       icon.addEventListener("click", () => {
-        console.log(player.firstName);
-//give ids in modal the values from player object
-//TURN DISPLAY ON for MODAL
+        console.log(player.talentName);
+        icon.addEventListener("click", function () {
+          console.log(player);
+
+          // give ids in modal the values from player object
+
+          document.getElementById("modalTalent").textContent =
+            player.talentName;
+
+          // TURN DISPLAY ON for MODAL (Bootstrap way)
+          const modal = new bootstrap.Modal(
+            document.getElementById("playerModal")
+          );
+
+          modal.show();
+        });
 
 
       });
