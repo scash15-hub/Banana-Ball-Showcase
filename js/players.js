@@ -254,7 +254,7 @@ const party = [
         firstName: "Thomas",
         lastName: "Simoneaux",
         position: "Coach",
-        photo: "party/Simoneaux.png",
+        photo: "party/Simoneaux.jpg",
         talentName: "The Routine Coordinator",
     },
     {
@@ -262,7 +262,7 @@ const party = [
         firstName: "Ashton",
         lastName: "Lansdell",
         position: "2B",
-        photo: "party/Lansdell.png",
+        photo: "party/Lansdell.jpg",
         talentName: "THe Groundbreaker",
     },
     {
@@ -270,7 +270,7 @@ const party = [
         firstName: "Jason",
         lastName: "Swan",
         position: "1B",
-        photo: "party/Swan.png",
+        photo: "party/Swan.jpg",
         talentName: "The Dance Machine Firstman",
     },
     {
@@ -278,7 +278,7 @@ const party = [
         firstName: "TJ",
         lastName: "Reeves",
         position: "OF",
-        photo: "party/Reeves.png",
+        photo: "party/Reeves.jpeg",
         talentName: "The Long-Ball Lunatic",
     },
     {
@@ -286,7 +286,7 @@ const party = [
         firstName: "Tanner",
         lastName: "Thomas",
         position: "OF",
-        photo: "party/Thomas.png",
+        photo: "party/Thomas.jpeg",
         talentName: "The Airtime Artist",
     },
     {
@@ -294,7 +294,7 @@ const party = [
         firstName: "Andy",
         lastName: "Cosgrove",
         position: "C",
-        photo: "party/Cosgrove.png",
+        photo: "party/Cosgrove.jpeg",
         talentName: "The Choreograpgy Catcher",
     },
     {
@@ -302,7 +302,7 @@ const party = [
         firstName: "Reece",
         lastName: "Hampton",
         position: "OF",
-        photo: "party/Hampton.png",
+        photo: "party/Hampton.jpeg",
         talentName: "The Jet-Fuel Sprinter",
     },
     {
@@ -310,7 +310,7 @@ const party = [
         firstName: "Mike",
         lastName: "Vavasis",
         position: "Head Coach",
-        photo: "party/Vavasis.png",
+        photo: "party/Vavasis.jpeg",
         talentName: "The Party Mastermind",
     },
     {
@@ -318,7 +318,7 @@ const party = [
         firstName: "Bryson",
         lastName: "Bloomer",
         position: "3B",
-        photo: "party/Bloomer.png",
+        photo: "party/Bloomer.jpeg",
         talentName: "The COrner Showman",
     },
     {
@@ -326,7 +326,7 @@ const party = [
         firstName: "Dustin",
         lastName: "Baber",
         position: "2B",
-        photo: "party/Baber.png",
+        photo: "party/Baber.jpeg",
         talentName: "The Trick-Flip Infielder",
     },
     {
@@ -334,7 +334,7 @@ const party = [
         firstName: "Bret",
         lastName: "Helton",
         position: "RHP",
-        photo: "party/Helton.png",
+        photo: "party/Helton.jpeg",
         talentName: "The Heavy-Heater Righty",
     },
     {
@@ -342,7 +342,7 @@ const party = [
         firstName: "Chase",
         lastName: "Achuff",
         position: "SS",
-        photo: "party/Achuff.png",
+        photo: "party/Achuff.jpeg",
         talentName: "The Glove Conductor",
     },
     {
@@ -350,7 +350,7 @@ const party = [
         firstName: "Noah",
         lastName: "Fisher",
         position: "UTL",
-        photo: "party/Fisher.png",
+        photo: "party/Fisher.jpeg",
         talentName: "The Everywhere Utility",
     },
     {
@@ -358,7 +358,7 @@ const party = [
         firstName: "Brady",
         lastName: "Kais",
         position: "LHP",
-        photo: "party/Kais.png",
+        photo: "party/Kais.jpeg",
         talentName: "The Southpaw Striker",
     },
     {
@@ -366,7 +366,7 @@ const party = [
         firstName: "Dylan",
         lastName: "Porter",
         position: "RHP",
-        photo: "party/Porter.png",
+        photo: "party/Dylan.jpeg",
         talentName: "The Mind-Game Reliever",
     },
     {
@@ -374,7 +374,7 @@ const party = [
         firstName: "Dalton",
         lastName: "Ponce",
         position: "RHP",
-        photo: "party/Ponce.png",
+        photo: "party/Ponce.jpeg",
         talentName: "The High-Stakes Closer",
     },
     {
@@ -382,7 +382,7 @@ const party = [
         firstName: "Riyan",
         lastName: "Rodriguez",
         position: "RHP",
-        photo: "party/Rodriguez.png",
+        photo: "party/Rodriguez.jpeg",
         talentName: "THe Chopped-Hair Fireballer",
     },
     {
@@ -390,7 +390,7 @@ const party = [
         firstName: "Peter",
         lastName: "Holden",
         position: "LHP",
-        photo: "party/Holden.png",
+        photo: "party/Holden.jpeg",
         talentName: "The Breaking-Ball Technician",
     },
     {
@@ -398,7 +398,7 @@ const party = [
         firstName: "Sean",
         lastName: "Fluke",
         position: "RHP",
-        photo: "party/Fluke.png",
+        photo: "party/Fluke.jpeg",
         talentName: "The Mound Jester",
     },
     {
@@ -406,7 +406,7 @@ const party = [
         firstName: "Nate",
         lastName: "Tellier",
         position: "RHP",
-        photo: "party/Tellier.png",
+        photo: "party/Tellier.jpeg",
         talentName: "The Velocity Thriller",
     },
     {
@@ -414,7 +414,7 @@ const party = [
         firstName: "Jake",
         lastName: "Lialios",
         position: "RHP",
-        photo: "party/Lialios.png",
+        photo: "party/Lialios.jpeg",
         talentName: "The Delivery Chameleon",
     },
     {
@@ -422,7 +422,7 @@ const party = [
         firstName: "Drew",
         lastName: "Gillespie",
         position: "RHP",
-        photo: "party/Gillespie.png",
+        photo: "party/Gillespie.jpeg",
         talentName: "The CLean-Inning King",
     },
     {
@@ -430,7 +430,7 @@ const party = [
         firstName: "Mark",
         lastName: "Smith",
         position: "DR",
-        photo: "party/Smith.png",
+        photo: "party/Mark.jpeg",
         talentName: "The Pink Base Bandit",
     },
     {
@@ -438,7 +438,7 @@ const party = [
         firstName: "Bronson",
         lastName: "Balholm",
         position: "C",
-        photo: "party/Balholm.png",
+        photo: "party/Balholm.jpeg",
         talentName: "The Plate Magician",
     },
     {
@@ -446,7 +446,7 @@ const party = [
         firstName: "Anthony",
         lastName: "Coromato",
         position: "Coach",
-        photo: "party/Coromato.png",
+        photo: "party/Coromato.jpeg",
         talentName: "The Hype Architect",
     },
     {
@@ -454,7 +454,7 @@ const party = [
         firstName: "Michael",
         lastName: "Ballard",
         position: "IF",
-        photo: "party/Ballard.png",
+        photo: "party/Ballard.jpeg",
         talentName: "THe Infield Anchor",
     },
     {
@@ -462,7 +462,7 @@ const party = [
         firstName: "Garrett",
         lastName: "Delano",
         position: "RHP",
-        photo: "party/Delano.png",
+        photo: "party/Delano.jpeg",
         talentName: "The 64-Second Sub",
     },
     {
@@ -470,7 +470,7 @@ const party = [
         firstName: "John-Howard",
         lastName: "Bobo",
         position: "UTL",
-        photo: "party/Bobo.png",
+        photo: "party/Bobo.jpeg",
         talentName: "The Banana Rapper",
     },
     {
@@ -478,7 +478,7 @@ const party = [
         firstName: "Jake",
         lastName: "Skole",
         position: "OF",
-        photo: "party/Skole.png",
+        photo: "party/Skole.jpeg",
         talentName: "The Wildcard Outfielder",
     },
 ];

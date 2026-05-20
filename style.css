@@ -176,9 +176,105 @@ h2 {
   margin-top: 10px;
 }
 
+/* NAVBAR */
+
+.navbar{
+    padding:20px 0;
+
+    background:transparent !important;
+}
+
+.navbar .container{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.logo-img{
+    width:140px;
+
+    height:auto;
+}
+
+.nav-links{
+    display:flex;
+
+    gap:35px;
+}
+
+.nav-link{
+    color:black !important;
+
+    text-decoration:none;
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    padding:0;
+}
+
+.nav-link:hover{
+    color:black !important;
+}
 
 
 
+/* HOME PAGE */
+
+.home-hero{
+    position:relative;
+
+    text-align:center;
+
+    margin-top:40px;
+}
+
+.home-logo{
+    width:320px;
+
+    position:relative;
+
+    z-index:2;
+}
+
+.home-baseball{
+    width:70px;
+
+    position:absolute;
+
+    top:30px;
+
+    right:35%;
+
+    animation:floatBall 5s ease-in-out infinite;
+}
+
+@keyframes floatBall{
+
+0%{
+transform:translate(0,0);
+}
+
+25%{
+transform:translate(25px,-20px);
+}
+
+50%{
+transform:translate(0,-35px);
+}
+
+75%{
+transform:translate(-25px,-15px);
+}
+
+100%{
+transform:translate(0,0);
+}
+
+}
 
 
 /*player-bg imgs*/
@@ -196,6 +292,8 @@ h2 {
 }
 .KJ {
   background-image: url("savannah/KJ.png");
+  background-position: center bottom;
+  background-size: contain;
 }
 .Meadows {
   background-image: url("savannah/Meadows.png");
@@ -205,6 +303,8 @@ h2 {
 }
 .Ty {
   background-image: url("savannah/Ty.png");
+  background-position: center bottom;
+  background-size: contain;
 }
 .Olson {
   background-image: url("savannah/Olson.png");
@@ -327,8 +427,8 @@ h2 {
 .Kais {
   background-image: url("party/Kais.jpeg");
 }
-.Porter {
-  background-image: url("party/Porter.jpeg");
+.Dylan {
+  background-image: url("party/Dylan.jpeg");
 }
 .Ponce {
   background-image: url("party/Ponce.jpeg");
@@ -351,8 +451,8 @@ h2 {
 .Gillespie {
   background-image: url("party/Gillespie.jpeg");
 }
-.Smith {
-  background-image: url("party/Smith.jpeg");
+.Mark {
+  background-image: url("party/Mark.jpeg");
 }
 .Balholm {
   background-image: url("party/Balholm.jpeg");

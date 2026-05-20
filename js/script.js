@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     col.className = "col-lg-3 col-md-4 col-sm-6 col-five";
 
     const bgClass = player.lastName;
+    const firstNameClass = player.firstName.replace(/\s+/g, "-");
 
     col.innerHTML = `
-      <div class="card player-card ${bgClass} ${teamName}">
+      <div class="card player-card ${bgClass} ${firstNameClass} ${teamName}" style="background-image: url('${player.photo}')">
         <div class="card-body">
           <img src="" class="team-icon" alt="team icon" />
           <p class="card-text">#${player.number}</p>
