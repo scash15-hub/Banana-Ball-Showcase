@@ -1,76 +1,196 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <title>About | Banana Ball Showcase</title>
 
-<title>About</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<link rel="stylesheet" href="style.css">
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="index.html">
+          <img src="logo.png" class="logo-img" alt="Logo" />
+        </a>
 
-</head>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+          <div class="navbar-nav me-3">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="collections.html">Collections</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<nav class="navbar">
+    <!-- HERO -->
+    <section class="about-hero text-center text-white">
+      <div class="container">
+        <h1 class="fw-bold">The Story of Banana Ball</h1>
+      </div>
+    </section>
 
-<div class="container">
+    <!-- WHY IT STARTED -->
+    <section class="container my-5">
+      <div class="card about-card p-4">
+        <h2>Why Banana Ball Started</h2>
 
-<img src="logo.png"
-class="logo-img"
-alt="logo">
+        <p>
+          Banana Ball was created to make baseball more fun, faster, and more
+          exciting for fans who thought traditional baseball was too slow. The
+          goal was simple: turn every game into a nonstop entertainment
+          experience with music, dancing, and wild rules that keep fans engaged
+          every second.
+        </p>
+      </div>
+    </section>
 
-<div class="nav-links">
+    <!-- RULES VIDEO -->
+    <section class="container my-5">
+      <div class="card about-card p-4">
+        <h2 class="about-section-title">Banana Ball Rules</h2>
 
-<a class="nav-link"
-href="index.html">
-Home
-</a>
+        <div class="ratio ratio-16x9 mt-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kCWkI95GxLk?si=GQ3De6F6xmVx94BQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
 
-<a class="nav-link"
-href="about.html">
-About
-</a>
+    <!-- TEAMS -->
+    <section class="container my-5">
+      <h2 class="text-center about-section-title">The Banana Ball Teams</h2>
 
-<a class="nav-link"
-href="collections.html">
-Collection Showcase
-</a>
+      <div class="row g-4">
+        <!-- SAVANNAH BANANAS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Savannah Bananas</h3>
 
-</div>
+            <p>
+              Founded in 2016 in Savannah, Georgia. The original Banana Ball
+              team. Known for starting the entire movement and bringing
+              entertainment baseball to life.
+            </p>
+          </div>
+        </div>
 
-</div>
+        <!-- PARTY ANIMALS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Party Animals</h3>
 
-</nav>
+            <p>
+              The main rival team of the Bananas. Known for wild energy, chaos,
+              and nonstop fun during games.
+            </p>
+          </div>
+        </div>
 
-<div class="container py-5">
+        <!-- FIRE FIGHTERS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Firefighters</h3>
 
-<h1>About Banana Ball</h1>
+            <p>
+              A high-energy touring team built to bring intensity and
+              entertainment to every Banana Ball game they play.
+            </p>
+          </div>
+        </div>
 
-<p>
-Banana Ball is a faster and more entertaining version
-of baseball created by the Savannah Bananas.
-Games include unique rules, dancing players,
-fan interaction and entertainment.
-</p>
+        <!-- TEXAS TAILGATERS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Texas Tailgaters</h3>
 
-<h3>Teams Included</h3>
+            <p>
+              A Texas-based Banana Ball team inspired by tailgate culture, food,
+              music, and big stadium energy.
+            </p>
+          </div>
+        </div>
 
-<ul>
-<li>Savannah Bananas</li>
-<li>Party Animals</li>
-<li>Firefighters</li>
-<li>Texas Tailgaters</li>
-<li>Coco Locos</li>
-<li>Clowns</li>
-</ul>
+        <!-- LOCO COCO COCONUTS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Loco Coco Coconuts</h3>
 
-</div>
+            <p>
+              A fun, tropical-themed team built for entertainment, dance, and
+              crazy in-game performances.
+            </p>
+          </div>
+        </div>
 
-</body>
+        <!-- INDIANAPOLIS CLOWNS -->
+        <div class="col-md-6">
+          <div class="card about-card p-3 h-100">
+            <h3>Indianapolis Clowns</h3>
+
+            <p>
+              A historic-inspired Banana Ball team name paying tribute to
+              baseball entertainment history and show-style play.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- STATS LINK -->
+    <section class="container my-5 text-center">
+      <div class="card about-card p-4">
+        <h2>Stats & More Info</h2>
+
+        <a
+          class="btn btn-warning fw-bold"
+          href="https://bananaball.com/stats/"
+          target="_blank"
+        >
+          Visit Official Banana Ball Stats
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-3 custom-footer">
+      <h6>Banana Ball Showcase © 2026 All rights reserved.</h6>
+      <a href="https://bananaball.com/">Visit Banana Ball Website</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

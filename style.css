@@ -1,6 +1,6 @@
 /* Whole Page */
 body {
-  background-color: #fff8cc;
+  background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   /* Custom cursor */
 }
@@ -177,47 +177,271 @@ h2 {
 }
 
 /* NAVBAR */
-
-.navbar{
-    padding:20px 0;
-
-    background:transparent !important;
-}
-
-.navbar .container{
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
+.custom-navbar{
+    background-color:#FFD900;
+    padding:12px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
 }
 
 .logo-img{
-    width:140px;
-
+    width:200px;
     height:auto;
 }
 
-.nav-links{
-    display:flex;
-
-    gap:35px;
-}
-
 .nav-link{
-    color:black !important;
-
-    text-decoration:none;
-
-    font-size:1.1rem;
-
-    font-weight:600;
-
-    padding:0;
+    color:black;
+    font-weight:700;
+    margin-left:20px;
+    transition:.2s;
 }
 
 .nav-link:hover{
-    color:black !important;
+    transform:scale(1.05);
+    color:#222;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    min-height:85vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url("field.jpeg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* HERO CARD */
+
+.hero-card{
+    background:rgba(255,255,255,.9);
+    padding:40px;
+    border-radius:25px;
+    max-width:750px;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.25);
+    backdrop-filter:blur(4px);
+}
+
+.hero-card h1{
+    font-size:3rem;
+    font-weight:900;
+    margin-bottom:15px;
+}
+
+.hero-card p{
+    font-size:1.2rem;
+    margin:0;
+}
+
+/* LOGO ANIMATION */
+
+.logo-wrapper{
+    position:relative;
+    display:inline-block;
+    margin-bottom:30px;
+}
+
+.home-logo{
+    width:180px;
+    position:relative;
+    z-index:2;
+}
+
+.home-baseball{
+    width:70px;
+}
+
+/* Baseball animation image */
+
+.baseball-fly{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity:0;
+    pointer-events:none;
+}
+
+/* Hover effect */
+
+.logo-wrapper:hover .baseball-fly{
+    animation:flyBall 0.8s ease-out forwards;
+}
+
+/* Animation */
+
+@keyframes flyBall{
+
+    0%{
+        opacity:0;
+        transform:translate(-50%, -50%) scale(0.5);
+    }
+
+    30%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0;
+        transform:translate(120px, -120px) scale(1.2);
+    }
+
+}
+/* VIDEO */
+
+.video-section{
+    padding:50px 20px;
+}
+
+.video-container{
+    max-width:1000px;
+    margin:auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
+}
+
+.ratio iframe{
+    border:none;
+}
+
+/* CARDS */
+
+.info-section{
+    padding:50px 20px 80px;
+}
+
+.banana-card{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.banana-card:hover{
+    transform:translateY(-8px);
+}
+
+.banana-card img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    height:220px;
+    object-fit:cover;
+}
+
+/* FOOTER */
+
+footer{
+    background-color:#FFD900;
+    text-align:center;
+    padding:20px;
+    font-weight:bold;
+    margin-top:40px;
+}
+
+/*About page*/
+.about-hero{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("field.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 110px 20px;
+    text-align: center;
+
+    border-bottom: 6px solid #FFD900;
+}
+
+.about-hero h1{
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0,0,0,.6);
+}
+
+/* Section titles */
+.about-section-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #222;
+    border-left: 6px solid #FFD900;
+    padding-left: 12px;
+}
+
+/* Cards upgrade (more “pro sports site” look) */
+.about-card{
+    border: none;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    transition: .25s ease-in-out;
+    background: white;
+}
+
+.about-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.18);
+}
+
+/* Paragraph readability */
+.about-card p{
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Teams section spacing improvement */
+.team-grid{
+    margin-top: 20px;
+}
+
+/* Team cards */
+.team-card{
+    border-radius: 18px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,.1);
+    transition: .25s;
+    border-left: 6px solid #FFD900;
+}
+
+.team-card:hover{
+    transform: translateY(-6px);
+    border-left: 6px solid black;
+}
+
+/* Stats button upgrade */
+.btn-warning{
+    background-color:#FFD900;
+    border:none;
+    font-weight: 800;
+    padding: 12px 25px;
+}
+
+.btn-warning:hover{
+    background-color:#e6c200;
+}
+
+/* Video styling upgrade */
+.ratio{
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+a{
+  color:#111
 }
 
 

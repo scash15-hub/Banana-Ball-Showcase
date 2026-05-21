@@ -18,38 +18,54 @@
   </head>
 
   <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="index.html">
+          <img src="logo.png" class="logo-img" alt="Logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+          <div class="navbar-nav me-3">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="collections.html">Collections</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main class="container py-5">
+      <!--Filter-->
+      <div id="filters" class="container my-3 d-flex gap-2 flex-wrap">
+        <select id="teamFilter" class="form-select w-auto">
+          <option value="all">All Teams</option>
+          <option value="savannah">Savannah Bananas</option>
+          <option value="party">Party Animals</option>
+          <option value="fire">Firefighters</option>
+          <option value="texas">Texas Tailgaters</option>
+          <option value="coco">Coco Locos</option>
+          <option value="clowns">Clowns</option>
+        </select>
 
-      <nav class="navbar">
+        <select id="sortNumber" class="form-select w-auto">
+          <option value="none">Sort Number</option>
+          <option value="low">Low → High</option>
+          <option value="high">High → Low</option>
+        </select>
 
-<div class="container">
+        <button id="firstAZ" class="btn btn-warning">First A–Z</button>
+        <button id="lastAZ" class="btn btn-warning">Last A–Z</button>
 
-<img src="logo.png"
-class="logo-img"
-alt="logo">
-
-<div class="nav-links">
-
-<a class="nav-link"
-href="index.html">
-Home
-</a>
-
-<a class="nav-link"
-href="about.html">
-About
-</a>
-
-<a class="nav-link"
-href="collections.html">
-Collection Showcase
-</a>
-
-</div>
-
-</div>
-
-</nav>
+        <button id="resetFilters" class="btn btn-secondary">Reset</button>
+      </div>
       <!-- Page title -->
       <h2 class="team-title">Savannah Bananas</h2>
       <div id="savannah" class="row g-3 mb-5"></div>
@@ -88,8 +104,10 @@ Collection Showcase
         </div>
       </div>
     </main>
-    <footer>
-      <!-- place footer here -->
+    <!-- FOOTER -->
+    <footer class="text-center p-3 custom-footer">
+      <h6>Banana Ball Showcase © 2026 All rights reserved.</h6>
+      <a href="https://bananaball.com/">Visit Banana Ball Website</a>
     </footer>
     <!-- Bootstrap JavaScript Bundle (includes Popper) -->
     <script

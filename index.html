@@ -1,65 +1,107 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Banana Ball Showcase</title>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-    >
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <!-- LOGO -->
+        <a class="navbar-brand ms-2" href="#">
+          <img src="logo.png" alt="Logo" class="logo-img" />
+        </a>
+        <!-- MOBILE BUTTON -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- NAV LINKS -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <div class="navbar-nav me-3">
+            <a class="nav-link active" href="index.html"> Home </a>
+            <a class="nav-link" href="about.html"> About </a>
+            <a class="nav-link" href="collections.html"> Collections </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <!-- LOGO ANIMATION -->
+      <div class="logo-wrapper">
+        <img src="logo.png" class="home-logo" alt="Logo" />
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <img
+          src="baseball.png"
+          class="home-baseball baseball-fly"
+          alt="Baseball"
+        />
+      </div>
 
-<body>
+      <!-- HERO CARD -->
+      <div class="hero-card">
+        <h1>Welcome to Banana Ball Showcase</h1>
 
-<nav class="navbar">
-
-<div class="container">
-
-<img src="logo.png"
-class="logo-img"
-alt="logo">
-
-<div class="nav-links">
-
-<a class="nav-link"
-href="index.html">
-Home
-</a>
-
-<a class="nav-link"
-href="about.html">
-About
-</a>
-
-<a class="nav-link"
-href="collections.html">
-Collection Showcase
-</a>
-
-</div>
-
-</div>
-
-</nav>
-
-<div class="home-hero">
-
-<img src="logo.png"
-class="home-logo">
-
-<img src="baseball.png"
-class="home-baseball">
-
-<h1 class="mt-4">
-Welcome to Banana Ball Showcase
-</h1>
-
-</div>
-
-</body>
+        <p>
+          Experience the wildest baseball show on earth with crazy trick plays,
+          dancing players, and nonstop entertainment.
+        </p>
+      </div>
+    </section>
+    <!-- VIDEO SECTION -->
+    <section class="video-section">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">Watch Banana Ball</h2>
+        <div class="video-container">
+          <!-- PUT YOUR YOUTUBE VIDEO LINK BELOW -->
+          <div class="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/rMipOsjMyrM?si=vUr1GoSWRZnUYg73"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="text-center p-3 custom-footer">
+      <h6>Banana Ball Showcase © 2026 All rights reserved.</h6>
+      <a href="https://bananaball.com/">Visit Banana Ball Website</a>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/players.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
