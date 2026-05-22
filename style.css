@@ -698,79 +698,88 @@ transform:translate(0,0);
 }
 /*fire*/
 .Shill {
-  background-image: url("fire/Firefighters/Shill.png");
+  background-image: url("fire/Shill.jpeg");
 }
 .Sparks {
-  background-image: url("fire/Sparks.png");
+  background-image: url("fire/Sparks.jpeg");
 }
 .Dearman {
-  background-image: url("fire/Dearman.png");
+  background-image: url("fire/Dearman.jpeg");
 }
 .Green {
-  background-image: url("fire/Green.png");
+  background-image: url("fire/Green.jpeg");
 }
 .Cornett {
-  background-image: url("fire/Cornett.png");
+  background-image: url("fire/Cornett.jpeg");
 }
 .Pye {
-  background-image: url("fire/Pye.png");
+  background-image: url("fire/Pye.jpeg");
 }
 .Jones {
-  background-image: url("fire/Jones.png");
+  background-image: url("fire/Jones.jpeg");
 }
 .Temple {
-  background-image: url("fire/Temple.png");
+  background-image: url("fire/Temple.jpeg");
 }
 .Maxwell {
-  background-image: url("fire/Maxwell.png");
+  background-image: url("fire/Maxwell.jpeg");
 }
 .Trimble {
-  background-image: url("fire/Trimble.png");
+  background-image: url("fire/Trimble.jpeg");
+}
+.McDowell {
+  background-image: url("fire/McDowell.jpeg");
 }
 .Bridges {
-  background-image: url("fire/Bridges.png");
+  background-image: url("fire/Bridges.jpeg");
 }
 .Lacey {
-  background-image: url("fire/Lacey.png");
+  background-image: url("fire/Lacey.jpeg");
 }
 .Spence {
-  background-image: url("fire/Spence.png");
+  background-image: url("fire/Spence.jpeg");
+}
+.Yniesta {
+  background-image: url("fire/Yniesta.jpeg");
+}
+.Dum {
+  background-image: url("fire/Dum.jpeg");
 }
 .Donaldson {
-  background-image: url("fire/Donaldson.png");
+  background-image: url("fire/Donalson.jpeg");
 }
 .Phillips {
-  background-image: url("fire/Phillips.png");
+  background-image: url("fire/Phillips.jpeg");
 }
 .Franklin {
-  background-image: url("fire/Franklin.png");
+  background-image: url("fire/Franklin.jpeg");
 }
 .McFadden {
-  background-image: url("fire/McFadden.png");
+  background-image: url("fire/McFadden.jpeg");
 }
 .Wray {
-  background-image: url("fire/Wray.png");
+  background-image: url("fire/Wray.jpeg");
 }
 .Perez {
-  background-image: url("fire/Perez.png");
+  background-image: url("fire/Perez.jpeg");
 }
 .Trepanier {
-  background-image: url("fire/Trepanier.png");
+  background-image: url("fire/Trepanier.jpeg");
 }
 .Becerra {
-  background-image: url("fire/Becerra.png");
+  background-image: url("fire/Becerra.jpeg");
 }
 .Morgan {
-  background-image: url("fire/Morgan.png");
+  background-image: url("fire/Morgan.jpeg");
 }
 .Webb {
-  background-image: url("fire/Webb.png");
+  background-image: url("fire/Webb.jpeg");
 }
 .Hughes {
-  background-image: url("fire/Hughes.png");
+  background-image: url("fire/Hughes.jpeg");
 }
 .Hummel {
-  background-image: url("fire/Hummel.png");
+  background-image: url("fire/Hummel.jpeg");
 }
 /*texas*/
 .Mikulik {
@@ -1061,6 +1070,8 @@ transform:translate(0,0);
 .Simoneaux,
 .Lansdell,
 .Swan,
+.Yniesta,
+.Dum,
 .Reeves,
 .Thomas,
 .Cosgrove,
